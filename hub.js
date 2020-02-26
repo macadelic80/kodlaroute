@@ -7,6 +7,10 @@ const path = require('path');
 const http = require("http");
 
 //console.log(google.urlGoogle());
+
+global.Connections = {};
+global.rooms = {};
+
 let server = express().use((req, res) => {
     const parsedUrl = url.parse(req.url);
     let pathname = `.${parsedUrl.pathname}`;
@@ -26,7 +30,7 @@ let server = express().use((req, res) => {
     fs.exists(pathname, function (exist) {
         if(!exist) {
 			let room;
-			if (!(room = find_room(pathname.substr(2)))){
+			if (!(room = rooms[pathname.substr(2).toLowerCase()])){
 				res.statusCode = 404;
 	            res.end(`File ${pathname} not found!`);
 	            return;
@@ -50,24 +54,23 @@ let server = express().use((req, res) => {
     });
 }).listen(process.env.PORT || 8080);
 
-let Connections = {};
 let get_date = ()=>{
 	let date = new Date();
 	let hours = date.getHours();
-	hours += hours < 10 ? "0" : "";
+	hours = hours < 10 ? "0" : "" + hours;
 	let minutes = date.getMinutes();
-	minutes += minutes < 10 ? "0" : "";
+	minutes = minutes < 10 ? "0" : "" + minutes;
 	let seconds = date.getSeconds();
-	seconds += seconds < 10 ? "0" : "";
+	seconds = seconds < 10 ? "0" : "" + seconds;
 	let ms = date.getMilliseconds();
-	seconds += seconds < 10 ? "00" : seconds < 100 ? "0" : "";
+	seconds = seconds < 10 ? "00" : seconds < 100 ? "0" : "" + seconds;
 	return `${hours}:${minutes}:${seconds}:${ms}`;
 }
 
 class Room {
-	constructor(_code, _name){
-		this.code = _code;
-		this.name = _name;
+	constructor(_name, _privacy){
+		this.name = _name.toLowerCase();
+		this.privacy = _privacy;
 		this.players = [];
 		this.state = ""
 	}
@@ -82,7 +85,6 @@ class Room {
 		})
 	}
 	broadcast_info(type, displayName){
-		console.log("sa broadcast info", type);
 		let date = get_date();
 		this.players.forEach(player=>{
 			player.ids.forEach(x=>{
@@ -106,16 +108,19 @@ class Room {
 		if (~(index = this.players.findIndex(x=>x.email == user.email))) {
 			let player = this.players[index];
 			if (player.ids.length == 1){
-				Connections[player.ids[0]].disconnect();
-				delete Connections[player.ids[0]]
+				Connections[id].disconnect();
+				delete Connections[id]
 				this.broadcast_info("leave", player.displayName)
 				this.players.splice(this.players.findIndex(x=>x.email==player.email),1)
+				if (this.players.length == 0) delete rooms[this.name.toLowerCase()];
 			} else {
-				let index = player.ids.findIndex(x=>x == id);
+				let index = player.ids.indexOf(id);
 				if (!~index) return ;
-				Connections[player.ids[index]].disconnect();
-				delete Connections[player.ids[index]]
-				player.ids.splice(index, 1)
+				if (Connections[id]){
+					Connections[id].disconnect();
+					delete Connections[id]
+					player.ids.splice(index, 1)
+				}
 			}
 		}
 	}
@@ -130,27 +135,19 @@ class User {
 	}
 }
 
-global.rooms = [];
-rooms.push(new Room("12345678", "test"))
-
-let find_room = (code)=>{
-	let index = rooms.findIndex(x=>x.code == code || x.name == code);
-	return (~index ? rooms[index] : undefined)
-}
-
 let findUserBySocketId = (id)=>{
-	rooms.forEach(room=>{
-		let index = room.players.findIndex(player=>~player.ids.findIndex(x=>x.id == id));
+	for (room in rooms){
+		room = rooms[room]
+		let index = room.players.findIndex(player=>~player.ids.indexOf(id));
 		if (~index){
 			let player = room.players[index];
 			return {room, player};
 		}
-	})
+	}
 	return null
 }
 
 socketio(server).on("connection", socket => {
-	Connections[socket.id] = socket;
 	socket.on("js", code => {
 		try{
 			socket.emit("log", eval(code))
@@ -163,30 +160,34 @@ socketio(server).on("connection", socket => {
 		let {room, player} = data
 		room.removeplayer(player, socket.id);
 	}).on("get_rooms", ()=>{
-		socket.emit("send_rooms", global.rooms);
-	}).on("create_room", (privacy, name)=>{
-
-	}).on("join_private_room", (code)=>{
-		let index = rooms.findIndex(x=>x.code == code);
+		socket.emit("send_rooms", Object.keys(rooms).filter(x=>rooms[x].privacy == "Public").map(x=>Object({name:rooms[x].name, players: rooms[x].players.length})));
+	}).on("create_room", (privacy, name, user)=>{
+		Connections[socket.id] = socket;
+		rooms[name] = new Room(name, privacy);
+		socket.emit("success", name);
+	}).on("join_private_room", (name)=>{
+		let index = rooms[name] || -1;
 		if (!~index) return socket.emit("error_room", "undefined room");
-		socket.emit("success", code);
-	}).on("joined", (user,  code)=>{
-		let room = find_room(code);
+		socket.emit("success", name);
+	}).on("joined", (user,  name)=>{
+		console.log("joined", name, rooms[name]);
+		let room = rooms[name] || -1;
 		if (!~room) return socket.emit("fail", "Erreur interne 118");
+		Connections[socket.id] = socket;
 		room.addplayer(user, socket.id);
-	}).on("leave", (user,code)=>{
-		let room = find_room(code);
+	}).on("leave", (user,name)=>{
+		let room = rooms[name] || -1;
 		if (!~room) return
 		room.removeplayer(user, socket.id);
-	}).on("chat", (message, code, user)=>{
-		let room = find_room(code);
+	}).on("chat", (message, name, user)=>{
+		let room = rooms[name] || -1;
 		if (!~room) return
 		room.broadcast_message({displayName: user.displayName, text: message});
 	})
 });
 
 
-let build_html = (room, account) => {
+let build_html = (room) => {
 	let data = `<html><head>
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -198,7 +199,7 @@ let build_html = (room, account) => {
 	  <script src="google-utils.js" async defer></script>
 	<body>
 	  <div class="top">
-	    <div class="info"><span class="url">${room.name}/<span class="roomCode">${room.code}</span></span> <span class="chatterCount">${room.players.length}</span></div>
+	    <div class="info"><span class="url">${room.name}</span> <span class="chatterCount">${room.players.length}</span></div>
 		<div class="spacer"></div>
 		<div id="my-signin2"></div>
 		<div class="sidebarToggle" title="Toggle sidebar"><button>📝</button></div>

@@ -40,8 +40,7 @@ let sendInfo = (displayName, text, date) =>{
 	`
 	document.querySelector(".log").appendChild(div);
 }
-
-document.addEventListener('DOMContentLoaded', function(){
+let start = ()=> {
 	let socket = io.connect();
 	document.querySelector(".sidebarToggle").addEventListener("click", e=>{
 		let sidebar = document.querySelector(".sidebar");
@@ -62,11 +61,11 @@ document.addEventListener('DOMContentLoaded', function(){
 	socket.on("connect", ()=>{
 		console.log("Connecté au serveur");
 		get_account(user=>{
-			let code = window.location.pathname.substr(1)
-			socket.emit("joined", user, code);
+			let name = window.location.pathname.substr(1)
+			socket.emit("joined", user, name);
 			document.querySelector(".leaveRoom").addEventListener("click", e=>{
 				if(confirm("Are you sure you want quit ?")){
-					socket.emit("leave", user, code)
+					socket.emit("leave", user, name)
 					window.location.href = window.location.origin
 				}
 			})
@@ -81,7 +80,16 @@ document.addEventListener('DOMContentLoaded', function(){
 		console.log("info", type);
 		sendInfo(displayName,type,date);
 	})
+}
 
+let check = () => {
+	if (window["io"] && window["gapi"]) start();
+	else {
+		console.log("socket.io ||/&& gapi non chargé")
+		setTimeout(check, 10);
+	}
+}
 
-
+document.addEventListener('DOMContentLoaded', function(){
+	check();
 });

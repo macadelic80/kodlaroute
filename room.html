@@ -1,0 +1,44 @@
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>JKLM.FUN — Party Games for Smartphone and PC. BombParty, Master of the Grid, PopSauce &amp; co.</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Varela+Round|Pacifico">
+  <link rel="stylesheet" href="common/base.css">
+  <link rel="stylesheet" href="room/index.css">
+
+<body>
+  <div class="top">
+    <div class="info"><span class="url">JKLM.FUN/<span class="roomCode">CDPH</span></span> <span class="publicRoom" hidden="" title="">📢</span> <span class="chatterCount">1</span></div>
+    <div class="spacer"></div>
+    <div class="sidebarToggle"><button title="You are the party leader">👑</button></div>
+  </div>
+  <div class="pages">
+    <div class="loading page" hidden="">
+      <div>Loading...</div>
+    </div>
+    <div class="disconnected page" hidden="">
+      <div class="section">Disconnected. <span class="reason"></span><a class="reload" href="">Reload</a> or <a class="goHome" href="/">Go
+          home</a></div>
+    </div>
+    <div class="main page">
+      <div class="game"><iframe src="https://phoenix.jklm.fun/games/bombparty"></iframe></div>
+      <div class="sidebar">
+        <div class="actions">
+          <a href="#" class="chat" title="Chat">💬️</a>
+          <a href="#" class="people" title="People">👨&zwj;👩&zwj;👧&zwj;👦</a>
+          <a href="#" class="changeGame" title="Change game">🕹️</a>
+          <a href="#" class="leaveRoom" title="Leave room">🏠</a>
+        </div>
+        <div class="chat">
+          <div class="log"></div>
+          <div class="input"><textarea placeholder="Type here to chat" maxlength="300"></textarea></div>
+        </div>
+        <div class="people" hidden="">
+          <div class="list"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="socket.io/socket.io.js">
+  </script>
+  <script src="room/index_room.js"></script>

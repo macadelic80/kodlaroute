@@ -1,0 +1,26 @@
+{
+  "name": "hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MACA XD",
+  "license": "ISC",
+  "dependencies": {
+    "dom-parser": "^0.1.5",
+    "express": "^4.16.3",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "^2.0.4",
+    "lodash": "latest",
+    "json-beautify": "latest",
+    "isomorphic-fetch": "latest",
+    "dropbox": "latest",
+    "url": "latest",
+    "path": "latest",
+    "googleapis": "latest",
+    "query-string": "latest",
+    "axios": "latest"
+  }
+}

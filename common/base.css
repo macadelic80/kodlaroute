@@ -1,0 +1,219 @@
+* { box-sizing: border-box; padding: 0; margin: 0; font: inherit; }
+*[hidden] { display: none !important; }
+b { font-weight: bold; }
+i { font-style: italic; }
+u { text-decoration: underline; }
+
+body {
+  font-family: "Varela Round", sans-serif;
+  line-height: 1.3;
+  word-wrap: break-word;
+  overscroll-behavior: contain; /* Prevent accidental pull-to-refresh */
+  overflow-x: hidden;
+}
+
+.loading.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  color: #000;
+}
+
+.loading.page > div {
+  opacity: 0.3;
+}
+
+p:not(:last-child), ul:not(:last-child) { margin-bottom: 1em; }
+.line { display: flex; align-items: center; }
+.light { background: #eee; }
+
+.section { padding: 1em; }
+.section header {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.box {
+  padding: 1em;
+  background: #eee;
+  border: 1px solid #ccc;
+}
+
+.box:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.box header {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #164158;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+input, input:disabled, textarea, select {
+  padding: 0.4em;
+  border-radius: 0.25em;
+  background: #fff;
+  border: 1px solid #bbb;
+  color: #222;
+}
+
+input {
+  box-shadow: 0 2px rgba(32, 32, 32, 0.05) inset;
+}
+
+input:disabled {
+  background: #f5f5f5;
+}
+
+/* Hide Chrome's autofill background since it looks bad */
+input:-webkit-autofill {
+  box-shadow: 0 0 0px 2em #fff inset;
+}
+
+input:-webkit-autofill:disabled {
+  box-shadow: 0 0 0px 2em #f5f5f5 inset;
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+}
+
+.radio input[type=radio] {
+  display: none;
+}
+
+.radio input[type=radio] + label:first-of-type {
+  border-right: 0;
+  border-radius: 0.5em 0 0 0.5em;
+}
+
+.radio input[type=radio] + label:last-of-type {
+  border-radius: 0 0.5em 0.5em 0;
+}
+
+button, .radio input[type=radio] + label {
+  padding: 0.4em 0.6em;
+  color: #fff;
+  font-weight: bold;
+  background: #26aa36;
+  border: none;
+  border-radius: 0.25em;
+  border-bottom: 2px solid rgba(0,0,0,0.15);
+  box-shadow: 0 2px 0 0 rgba(0,0,0,0.1);
+  user-select: none;
+  cursor: pointer;
+  outline: none;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox]:not(:checked) + label:before {
+  content: "☐ ";
+  font-weight: bold;
+}
+
+input[type=checkbox]:checked + label:before {
+  content: "☑ ";
+  font-weight: bold;
+}
+
+input[type=checkbox] + label {
+  display: inline-block;
+  background: #ddd;
+  padding: 0.4em;
+  border-radius: 0.5em;
+  user-select: none;
+  cursor: pointer;
+}
+
+input[type=checkbox].dark + label {
+  background: rgba(0,0,0,0.5);
+  color: #eee;
+}
+
+
+.small { font-size: smaller; }
+
+button.pressed {
+  border-top: 2px solid rgba(0,0,0,0.15);
+  border-bottom: 0;
+  background: #1e802a;
+}
+
+button.blue, .radio input[type=radio] + label {
+  background: #52aeff;
+}
+
+button.blue.pressed, .radio input[type=radio]:checked + label {
+  border-top: 2px solid rgba(0,0,0,0.15);
+  border-bottom: 0;
+  background: #2383d8;
+}
+
+button:not(.pressed):not(:disabled):hover, button:not(.pressed):not(:disabled):focus {
+  background: #3dbd31;
+}
+
+button.blue:not(.pressed):not(:disabled):hover, button.blue:not(.pressed):not(:disabled):focus, .radio input[type=radio]:not(:checked) + label:hover {
+  background: #63b6ff;
+}
+
+button:not(:disabled):active, .radio input[type=radio]:active + label {
+  border-top: 2px solid rgba(0,0,0,0.15);
+  border-bottom: 0;
+}
+
+button:disabled, button.blue:disabled {
+  background: #a8a8a8;
+  cursor: default;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  vertical-align: top;
+  padding: 1em;
+  border: 1px solid #ccc;
+}
+
+@media (min-width: 1000px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+ background-color: rgba(255,255,255,0.1);
+ border: 3px solid transparent;
+ background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255,255,255,0.15);
+}
+
+::-webkit-scrollbar-corner {
+  background-color: rgba(255,255,255,0.1);
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0,0,0,0.05);
+}
+
+fieldset {
+  border: none;
+  display: block;
+}

@@ -1,0 +1,200 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  background: #7141e0;
+  color: #eee;
+}
+
+.top .info {
+  padding: 0.4em 0.5em;
+}
+
+.top .spacer {
+  flex: 1;
+}
+
+.top .info .chatterCount {
+  margin-left: 0.25em;
+  background: rgba(0,0,0,0.2);
+  padding: 0.25em 0.5em;
+  border-radius: 1em;
+  font-size: smaller;
+}
+
+.top button, .top button:hover, .top button:focus, .top button:active {
+  background: rgba(255,255,255,0.1) !important;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.top button:active {
+  background: rgba(255,255,255,0.3) !important;
+}
+
+.pages {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+.pages > div {
+  flex: 1;
+}
+
+.main.page {
+  position: relative;
+}
+
+.main.page .game {
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 240px;
+  background: #202020;
+  box-shadow: 0 0 1em rgba(0,0,0,0.3);
+  display: flex;
+  flex-flow: column;
+}
+
+.sidebar .actions {
+  display: flex;
+  font-size: smaller;
+}
+
+.sidebar .actions a {
+  flex: 1;
+  display: block;
+  padding: 0.5em;
+  background: #404040;
+  text-decoration: none;
+  color: #aaa;
+  text-align: center;
+}
+
+.sidebar .actions a:hover {
+  background: #505050;
+}
+
+.sidebar .actions a:active {
+  background: #606060;
+}
+
+.sidebar {
+  overflow: hidden;
+}
+
+.sidebar > .chat {
+  overflow: hidden;
+}
+
+.sidebar > .chat, .sidebar > .people {
+  flex: 1;
+  box-shadow: 0 0 1em rgba(0,0,0,0.3) inset;
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+}
+
+.sidebar > .chat .log {
+  flex: 1;
+  color: #ccc;
+  padding: 0.5em;
+  font-size: 0.8em;
+  overflow-y: auto;
+}
+
+.sidebar > .chat .log > div {
+  margin-bottom: 0.5em;
+}
+
+.sidebar > .chat .log > div.system {
+  color: #8aa;
+}
+
+.sidebar > .chat .log > div .time {
+  font-size: 0.7em;
+  color: #888;
+}
+
+.sidebar > .chat .log > div .author {
+  color: #eee;
+}
+
+.sidebar > .chat .log > div .author:before {
+  content: " ";
+}
+
+.sidebar > .chat .log > div .author:after {
+  content: ":";
+}
+
+.sidebar > .chat .log > div .text:before {
+  content: " ";
+}
+
+.sidebar > .chat .input {
+  display: flex;
+  height: 3em;
+}
+
+.sidebar > .chat .input textarea {
+  flex: 1;
+  border: none;
+  resize: none;
+  background: rgba(0,0,0,0.4);
+  outline: none;
+  color: #aaa;
+  padding: 0.5em;
+  line-height: 1.25;
+  font-size: smaller;
+}
+
+.sidebar > .chat .input textarea::placeholder { color: #666; }
+
+.sidebar > .people {
+  overflow-y: auto;
+}
+
+.sidebar > .people .list > div {
+  color: #eee;
+  padding: 0.5em;
+}
+
+iframe {
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 1000px) {
+  .main.page {
+    display: flex;
+  }
+
+  .main.page .game {
+    flex: 1;
+  }
+
+  .sidebar {
+    position: initial;
+    width: 300px;
+    box-shadow: none;
+  }
+}

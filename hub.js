@@ -171,7 +171,7 @@ socketio(server).on("connection", socket => {
 		socket.emit("send_rooms", rooms_list, infos);
 	}).on("create_room", (privacy, name, user)=>{
 		Connections[socket.id] = socket;
-		if (rooms.hasOwmProperty(name)) rooms[name] = new Room(name, privacy);
+		if (!rooms.hasOwnProperty(name)) rooms[name] = new Room(name, privacy);
 		socket.emit("success", name);
 	}).on("join_private_room", (name)=>{
 		let index = rooms[name] || -1;

@@ -72,7 +72,7 @@ class Room {
 		this.name = _name.toLowerCase();
 		this.privacy = _privacy;
 		this.players = [];
-		this.state = ""
+		this.state = "waitingForPlayers"
 	}
 	broadcast_message(data){
 		let date = get_date();
@@ -147,6 +147,12 @@ let findUserBySocketId = (id)=>{
 	return null
 }
 
+let get_players_count = () =>{
+	let length = 0;
+	for (room in rooms) length += rooms[room].players.length;
+	return length;
+}
+
 socketio(server).on("connection", socket => {
 	socket.on("js", code => {
 		try{
@@ -160,10 +166,12 @@ socketio(server).on("connection", socket => {
 		let {room, player} = data
 		room.removeplayer(player, socket.id);
 	}).on("get_rooms", ()=>{
-		socket.emit("send_rooms", Object.keys(rooms).filter(x=>rooms[x].privacy == "Public").map(x=>Object({name:rooms[x].name, players: rooms[x].players.length})));
+		let rooms_list = Object.keys(rooms).filter(x=>rooms[x].privacy == "Public").map(x=>Object({name:rooms[x].name, players: rooms[x].players.length, state: rooms[x].state}))
+		let infos = {private: Object.keys(rooms).filter(x=>rooms[x].privacy == "Private").length, players: get_players_count()};
+		socket.emit("send_rooms", rooms_list, infos);
 	}).on("create_room", (privacy, name, user)=>{
 		Connections[socket.id] = socket;
-		rooms[name] = new Room(name, privacy);
+		if (rooms.hasOwmProperty(name)) rooms[name] = new Room(name, privacy);
 		socket.emit("success", name);
 	}).on("join_private_room", (name)=>{
 		let index = rooms[name] || -1;

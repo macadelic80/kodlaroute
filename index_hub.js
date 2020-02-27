@@ -36,12 +36,34 @@ let join = (e) => {
 }
 
 let socket;
+
+let update_room_list = (rooms, infos) =>{
+	let list = document.querySelector(".list");
+	let header = document.querySelector("#info_rooms");
+	header.textContent = `${infos.players} player${infos.players == 1 ? "" : "s"} in ${rooms.length} public room${rooms.length == 1 ? "" : "s"} and ${infos.private} private room${infos.private == 1 ? "" : "s"}`;
+	list.innerHTML = "";
+	rooms.forEach(x=>list.appendChild(create_room_box(x)));
+}
+let create_room_box = (room) => {
+	let a = document.createElement("a");
+	a.classList.add("entry");
+	a.setAttribute("href", "/" + room.name)
+	a.innerHTML = `
+		<div class="title">${room.name}
+			<span class="playerCount">${room.players}</span>
+		</div>
+		<div class="playing">${room.state}</div>`
+	return a
+}
 let start = () => {
 	socket = io.connect();
-	socket.on("connect", ()=>{
-		console.log("Connecté au serveur");
+	document.querySelector("#refresh").addEventListener("click", e=>{
 		socket.emit("get_rooms");
-	}).on("send_rooms", (rooms)=>{
+	})
+	socket.on("connect", ()=>{
+		socket.emit("get_rooms");
+	}).on("send_rooms", (rooms, infos)=>{
+		update_room_list(rooms, infos);
 		console.log("rooms actuelles", rooms);
 	}).on("error_room", (error)=>{
 		alert(error)

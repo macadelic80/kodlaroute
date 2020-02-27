@@ -46,6 +46,7 @@ let start = ()=> {
 		let sidebar = document.querySelector(".sidebar");
 		sidebar.hidden = !sidebar.hidden;
 	})
+
 	document.querySelector("#textBox").addEventListener("keydown", event=>{
 		if (!event.shiftKey && event.keyCode === 13) {
 	    event.preventDefault();

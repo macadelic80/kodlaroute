@@ -5,7 +5,7 @@ const _ = require("lodash");
 const url = require('url');
 const path = require('path');
 const http = require("http");
-
+const Questions = require("./questions.json")
 //console.log(google.urlGoogle());
 
 global.Connections = {};
@@ -194,6 +194,28 @@ socketio(server).on("connection", socket => {
 	})
 });
 
+let format_question = (question) => {
+	let data = question.answers.map((x)=>`<div><input type="checkbox" name="scales"><label>${x.entitled}</label></div>`)
+	return "<ul id='question_list'>" + data.join("") + "</ul>";
+}
+
+
+let create_question = (x) => {
+	let data = `
+		<div id="section">
+			<div id="id_question">
+				Question <span>1</span> sur <span>50</span> </div>
+			<div>
+				<div>
+					<p><img src="${x.picture}" alt=""></p>
+					<p>${x.question}</p>
+				</div>
+				${format_question(x)}
+			</div>
+		</div>`
+		return data;
+}
+
 
 let build_html = (room) => {
 	let data = `<html><head>
@@ -217,7 +239,9 @@ let build_html = (room) => {
 	      <div>Loading...</div>
 	    </div>
 	    <div class="main page">
-	      <div class="game"><iframe></iframe></div>
+	      <div class="game">
+		  ${create_question(Questions[0])}
+		  </div>
 	      <div class="sidebar">
 	        <div class="actions">
 	          <a class="chat" title="Chat">Chat</a>

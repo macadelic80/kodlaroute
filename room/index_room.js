@@ -20,6 +20,12 @@ let get_account = (callback)=>{
 }
 
 
+let set_answers_event = () => {
+	[...document.querySelector("#question_list").children].forEach(x => {
+		x.onclick = e => e.target.parentElement.children[0].checked = !e.target.parentElement.children[0].checked
+	});
+}
+
 let sendMessage = (displayName, text, date) =>{
 	let div = document.createElement("div");
 	div.innerHTML = `
@@ -46,7 +52,7 @@ let start = ()=> {
 		let sidebar = document.querySelector(".sidebar");
 		sidebar.hidden = !sidebar.hidden;
 	})
-
+	set_answers_event();
 	document.querySelector("#textBox").addEventListener("keydown", event=>{
 		if (!event.shiftKey && event.keyCode === 13) {
 	    event.preventDefault();

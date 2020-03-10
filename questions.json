@@ -12,11 +12,6 @@
         "questionId": 777,
         "entitled": "il les autorise à dépasser",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 777,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/227.mp3",
     "info": "Le signal F107 lève l'interdiction générale de dépasser jusqu'au signal F109.",
@@ -57,11 +52,6 @@
         "id": 2,
         "questionId": 1590,
         "entitled": "... vous échappez de justesse à une interdiction de conduire pendant une durée de trois heures à compter de la constatation",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1590,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1292.mp3",
@@ -150,11 +140,6 @@
         "questionId": 1142,
         "entitled": "Le conducteur de la voiture noire",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1142,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/666.mp3",
     "info": "Aucun panneau ne règle la priorité.La voiture noire vient de droite.",
@@ -242,11 +227,6 @@
         "questionId": 1144,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1144,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/670.mp3",
     "info": "Les cyclistes et les conducteurs de cyclomoteurs ne peuvent utiliser ce passage que si la chaussée est libre.",
@@ -449,11 +429,6 @@
         "questionId": 957,
         "entitled": "Je ralentis et me tiens prêt à freiner",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 957,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/439.mp3",
     "info": "Si un enfant jaillit entre les voitures garées, vous ne disposerez jamais d'assez de temps pour réagir. Vous gagnerez un temps précieux en ralentissant et vous tenant prêt à freiner.",
@@ -633,11 +608,6 @@
         "questionId": 907,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 907,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/381.mp3",
     "info": "Cet îlot directionnel sert à canaliser la circulation et doit être laissé à votre gauche.",
@@ -771,11 +741,6 @@
         "questionId": 683,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 683,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/102.mp3",
     "info": "Signal A39 : Circulation admise dans les deux sens après une section de chaussée à sens unique.",
@@ -817,11 +782,6 @@
         "questionId": 1101,
         "entitled": "Ils doivent laisser un ou deux feux rouges allumés à l'arrière",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1101,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/622.mp3",
     "info": "Lorsque la voiture est stationnée sur la voie publique ou sur l'accotement entre la tombée de la nuit et le lever du jour :- un ou deux feux de position blancs ou jaunes doivent être allumés à l'avant.- un ou deux feux rouges doivent être allumés à l'arrière.",
@@ -886,11 +846,6 @@
         "questionId": 694,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 694,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/120.mp3",
     "info": "Signal B21 : Passage étroit. Priorité de passage par rapport aux conducteurs venant en sens opposé.",
@@ -932,11 +887,6 @@
         "questionId": 813,
         "entitled": "... vous pouvez encore rouler sur la bande de droite (si vous ne gênez pas les autres usagers de la route), car il y une ligne discontinue dans le carrefour",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 813,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/281.mp3",
     "info": "Une fois dans le carrefour, vous ne pouvez plus changer de bande de circulation.",
@@ -955,11 +905,6 @@
         "questionId": 1398,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1398,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1021.mp3",
     "info": "Ils ne peuvent naturellement pas dresser de PV",
@@ -978,11 +923,6 @@
         "questionId": 1284,
         "entitled": "je dois ralentir et, au besoin, m'arrêter pour le laisser repartir",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1284,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/856.mp3",
     "info": "Obligation de ralentir et, au besoin, de vous arrêter.",
@@ -1001,11 +941,6 @@
         "questionId": 1270,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1270,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/842.mp3",
     "info": "Obligation de dépasser par la droite celui qui a manifesté son intention de virer à gauche ou de se garer à gauche ET s'est déporté de ce côté. Interdiction toutefois de « mordre » sur la piste cyclable.",
@@ -1069,11 +1004,6 @@
         "id": 2,
         "questionId": 941,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 941,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/423.mp3",
@@ -1139,11 +1069,6 @@
         "questionId": 1553,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1553,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1252.mp3",
     "info": "Interdiction d'arrêt et de stationnement en dehors des zones \"P\".",
@@ -1277,11 +1202,6 @@
         "questionId": 1400,
         "entitled": "... toujours vous arrêter (même si le feu est vert, il faut d'abord s'arrêter)",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1400,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1023.mp3",
     "info": "Si le feu est vert, vous ne devez pas vous arrêter.",
@@ -1369,11 +1289,6 @@
         "questionId": 1170,
         "entitled": "La voiture",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1170,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/705.mp3",
     "info": "Dans les carrefours où la circulation n'est pas réglée par des feux ou un agent qualifié, un tram a toujours priorité.",
@@ -1391,11 +1306,6 @@
         "id": 2,
         "questionId": 845,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 845,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/319.mp3",
@@ -1483,11 +1393,6 @@
         "id": 2,
         "questionId": 1171,
         "entitled": "Vous",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1171,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/706.mp3",
@@ -1668,11 +1573,6 @@
         "questionId": 954,
         "entitled": "L'arrière du véhicule (coffre)",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 954,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/436.mp3",
     "info": "Quand vous voulez monter dans la voiture, vous devez arriver par l'avant (côté capot).Quand vous voulez descendre de voiture, vous devez passer par l'arrière (côté coffre).",
@@ -1690,11 +1590,6 @@
         "id": 2,
         "questionId": 1332,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1332,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/929.mp3",
@@ -1875,11 +1770,6 @@
         "questionId": 1574,
         "entitled": "Non, car l'interdiction concerne tous les véhicules",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1574,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1275.mp3",
     "info": "L'interdiction concerne tous les véhicules",
@@ -1920,11 +1810,6 @@
         "id": 2,
         "questionId": 1620,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1620,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1335.mp3",
@@ -2013,11 +1898,6 @@
         "questionId": 737,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 737,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/179.mp3",
     "info": "Signal E9b : le stationnement initialement réservé aux voitures s'étend aux motos, voitures mixtes et minibus.",
@@ -2059,11 +1939,6 @@
         "questionId": 1141,
         "entitled": "l'infraction est plus grave",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1141,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/664.mp3",
     "info": "Première infraction : le stationnement en double file. Seconde infraction : les feux de détresse qui ne peuvent être utilisés que pour signaler un véhicule en panne ou le risque d'un danger imminent (ralentissement, embouteillage, freinage soudain...).",
@@ -2151,11 +2026,6 @@
         "questionId": 1443,
         "entitled": "La distance d'arrêt",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1443,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1068.mp3",
     "info": "La distance d'arrêt est la somme entre la distance parcourue pendant le temps de réaction (ou temps de réflexion) et la distance parcourue pendant le freinage (le temps pendant lequel vous appuyez effectivement sur la pédale de frein).",
@@ -2174,11 +2044,6 @@
         "questionId": 1265,
         "entitled": "Non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1265,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/837.mp3",
     "info": "Tout déplacement latéral doit d'abord être signalé par votre clignotant.",
@@ -2196,11 +2061,6 @@
         "id": 2,
         "questionId": 1122,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1122,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/645.mp3",
@@ -2243,11 +2103,6 @@
         "questionId": 1530,
         "entitled": "je peux rester dans la bande centrale",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1530,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1215.mp3",
     "info": "Les dépassements successifs sont autorisés sur cette chaussée.",
@@ -2289,11 +2144,6 @@
         "questionId": 639,
         "entitled": "Si un cycliste se trouve encore dans la piste cyclable, c’est ce cycliste qui a la priorité",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 639,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/45.mp3",
     "info": "Si le feu est vert, vous ne pouvez vous engager dans le carrefour que si celui-ci est libre.Si un cycliste roule encore sur la piste cyclable, le carrefour n'est pas encore libre et le cycliste a la priorité.",
@@ -2335,11 +2185,6 @@
         "questionId": 1190,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1190,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/730.mp3",
     "info": "Celui qui rencontre l'obstacle est obligé de céder le passage.",
@@ -2357,11 +2202,6 @@
         "id": 2,
         "questionId": 1125,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1125,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/648.mp3",
@@ -2404,11 +2244,6 @@
         "questionId": 1587,
         "entitled": "... il sera procédé à une analyse de l'haleine",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1587,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1288.mp3",
     "info": "Moins de 0,22 mg d'alcool par litre d'air expiré = poursuivez votre route.",
@@ -2450,11 +2285,6 @@
         "questionId": 634,
         "entitled": "Non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 634,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/40.mp3",
     "info": "À chaque infraction grave, le permis de conduire peut être retiré immédiatement.",
@@ -2472,11 +2302,6 @@
         "id": 2,
         "questionId": 1256,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1256,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/826.mp3",
@@ -2680,11 +2505,6 @@
         "questionId": 1523,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1523,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1208.mp3",
     "info": "Un conducteur en apprentissage et donc détenteur d'un permis de conduire provisoire est autorisé à s'engager sur autoroute ou route pour automobiles en voiture ou à moto.",
@@ -2887,11 +2707,6 @@
         "questionId": 906,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 906,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/380.mp3",
     "info": "Rouler à droite vous impose de passer à droite des bornes et îlots directionnels.",
@@ -2910,11 +2725,6 @@
         "questionId": 1164,
         "entitled": "Le véhicule venant en sens inverse",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1164,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/699.mp3",
     "info": "La voiture bleue doit effectuer un déplacement latéral vers la gauche.Le véhicule venant en sens inverse suit le sens de la circulation et a la priorité.",
@@ -3048,11 +2858,6 @@
         "questionId": 1245,
         "entitled": "Non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1245,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/814.mp3",
     "info": "Le dépassement est interdit sur un passage à niveau signalé par les panneaux A45 et A47 s'il n'y a NI barrières, NI feux.La question stipule que le feu clignote. Il y a donc bien des feux.",
@@ -3116,11 +2921,6 @@
         "id": 2,
         "questionId": 1152,
         "entitled": "La voiture",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1152,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/685.mp3",
@@ -3232,11 +3032,6 @@
         "questionId": 1614,
         "entitled": "Non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1614,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1325.mp3",
     "info": "Pendant que le conducteur effectue une marche arrière, il ne doit pas porter sa ceinture de sécurité.",
@@ -3324,11 +3119,6 @@
         "questionId": 1147,
         "entitled": "La voiture",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1147,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/675.mp3",
     "info": "Aux endroits où les cyclistes et les conducteurs de cyclomoteurs sont obligés de quitter la piste cyclable pour rouler sur la chaussée, les conducteurs se trouvant déjà sur la chaussée doivent leur céder le passage.",
@@ -3347,11 +3137,6 @@
         "questionId": 1295,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1295,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/867.mp3",
     "info": "Les privilèges accordés aux véhicules prioritaires sont liés à l'usage de l'avertisseur sonore spécial et des feux bleus. D'autre part, la Jurisprudence s'est déjà prononcée sur le fait que deux véhicules qui se suivaient ne pouvaient en aucun cas prétendre former un convoi.",
@@ -3508,11 +3293,6 @@
         "questionId": 1231,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1231,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/790.mp3",
     "info": "Le triplage n'est autorisé que sur les chaussées comprenant au moins 3 bandes de circulation dans le sens suivi (autoroutes…), alors qu'ici la chaussée est à deux sens de circulation.",
@@ -3553,11 +3333,6 @@
         "id": 2,
         "questionId": 821,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 821,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/292.mp3",
@@ -3853,11 +3628,6 @@
         "questionId": 1242,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1242,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/808.mp3",
     "info": "Ce n'est pas autorisé.",
@@ -4198,11 +3968,6 @@
         "questionId": 968,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 968,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/455.mp3",
     "info": "En se dirigeant vers l'arrière de sa voiture, il resterait face au trafic.",
@@ -4336,11 +4101,6 @@
         "questionId": 1003,
         "entitled": "... la Masse en Charge (MC)",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1003,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/494.mp3",
     "info": "La Masse en Charge",
@@ -4359,11 +4119,6 @@
         "questionId": 1528,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1528,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1213.mp3",
     "info": "Obligation de \"se tenir le plus près possible du bord droit\" de la chaussée.",
@@ -4382,11 +4137,6 @@
         "questionId": 910,
         "entitled": "je dois choisir la bande qui convient à ma destination",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 910,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/388.mp3",
     "info": "Le signal F13 vous indique la bande de circulation qui convient le mieux à votre destination.",
@@ -4497,11 +4247,6 @@
         "questionId": 1229,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1229,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/787.mp3",
     "info": "Tripler est autorisé puisque la voiture (véhicule large) dépasse un véhicule étroit (vélo).",
@@ -4520,11 +4265,6 @@
         "questionId": 885,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 885,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/359.mp3",
     "info": "Une piste cyclable suggérée n’oblige, ni n’interdit rien.Vous pouvez donc rouler, vous arrêter et stationner sur cette bande.",
@@ -4588,11 +4328,6 @@
         "id": 2,
         "questionId": 1134,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1134,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/657.mp3",
@@ -4658,11 +4393,6 @@
         "questionId": 1712,
         "entitled": "je ne retire pas son casque",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1712,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1431.mp3",
     "info": "Ne jamais retirer le casque d'un blessé.",
@@ -4680,11 +4410,6 @@
         "id": 2,
         "questionId": 1205,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1205,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/750.mp3",
@@ -4796,11 +4521,6 @@
         "questionId": 1477,
         "entitled": "Non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1477,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1104.mp3",
     "info": "Les véhicules agricoles peuvent s'engager sur une route ordinaire mais pas sur une autoroute.",
@@ -4818,11 +4538,6 @@
         "id": 2,
         "questionId": 1621,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1621,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1336.mp3",
@@ -4934,11 +4649,6 @@
         "questionId": 1395,
         "entitled": "Les usagers de la route qui se trouvent à sa gauche ou à sa droite peuvent uniquement continuer tout droit, mais ne peuvent pas tourner à gauche ou à droite.",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1395,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1017.mp3",
     "info": "Que ce soit un ou deux bras tendus horizontalement , l'ordre reste le même.",
@@ -5048,11 +4758,6 @@
         "id": 2,
         "questionId": 909,
         "entitled": "uniquement lorsque la densité de la circulation le justifie",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 909,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/386.mp3",
@@ -5164,11 +4869,6 @@
         "questionId": 806,
         "entitled": "Zone avancée pour cyclistes et conducteurs de cyclomoteurs à deux roues",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 806,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/267.mp3",
     "info": "Le conducteur d'une voiture ou d'une motocyclette doit s'arrêter avant la première ligne blanche.Les cyclistes et conducteurs de cyclomoteurs avant la deuxième ligne d'arrêt.",
@@ -5210,11 +4910,6 @@
         "questionId": 1091,
         "entitled": "... est une infraction",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1091,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/612.mp3",
     "info": "De la tombée de la nuit jusqu'au lever du jour, il faut conduire avec les feux de croisement ou de route.Sinon, l'on commet une infraction grave.",
@@ -5325,11 +5020,6 @@
         "questionId": 999,
         "entitled": "La Masse en Charge (MC)",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 999,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/489.mp3",
     "info": "",
@@ -5371,11 +5061,6 @@
         "questionId": 1655,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1655,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1374.mp3",
     "info": "Il est interdit à tout conducteur de procéder, au point mort, à des accélérations répétées du moteur. Les conducteurs doivent en outre veiller à ne pas laisser le moteur en marche au point mort, sauf en cas de nécessité. Cela nuit à l'environnement et augmente la consommation.",
@@ -5578,11 +5263,6 @@
         "questionId": 1097,
         "entitled": "Dès que le véhicule venant en sens inverse fait un appel de phares, pour vous indiquer clairement qu'il est ébloui",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1097,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/618.mp3",
     "info": "Vous devez également éteindre vos feux de route quand un piéton approche et que vous l'éblouissez.",
@@ -5624,11 +5304,6 @@
         "questionId": 800,
         "entitled": "... vous ne pouvez plus dépasser et devez immédiatement vous rabattre sur la bande de droite",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 800,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/257.mp3",
     "info": "La manœuvre de dépassement doit être terminée avant l’arrêt de la bande de circulation.",
@@ -5647,11 +5322,6 @@
         "questionId": 1498,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1498,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1151.mp3",
     "info": "Nous changeons tous deux de direction. Pour nous départager, le principe général de priorité à droite sera d'application.",
@@ -5762,11 +5432,6 @@
         "questionId": 788,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 788,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/241.mp3",
     "info": "Les injonctions de l'agent qualifié priment sur la signalisation routière (feux, signaux de priorité, marquage) ainsi que sur les règles de circulation. Agent de face ou de dos = feu ROUGE !",
@@ -5877,11 +5542,6 @@
         "questionId": 894,
         "entitled": "Non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 894,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/387.mp3",
     "info": "Le panneau signifie : voie sans issue.Il n’est pas interdit de rouler après ce panneau,",
@@ -5923,11 +5583,6 @@
         "questionId": 1588,
         "entitled": "Non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1588,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1289.mp3",
     "info": "Un test de l'haleine peut-il être imposé à :- l'auteur présumé d'un accident ou celui qui a pu contribuer à le provoquer ,- toute personne qui, dans un lieu public, conduit un véhicule ou une monture ,- toute personne qui accompagne un conducteur en vue de l'apprentissage ,- toute personne qui, dans un lieu public, s'apprête à conduire un véhicule (le parking d'un grand magasin étant un lieu p",
@@ -5945,11 +5600,6 @@
         "id": 2,
         "questionId": 1176,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1176,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/713.mp3",
@@ -6083,11 +5733,6 @@
         "id": 2,
         "questionId": 1228,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1228,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/786.mp3",
@@ -6267,11 +5912,6 @@
         "id": 2,
         "questionId": 908,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 908,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/382.mp3",
@@ -6498,11 +6138,6 @@
         "questionId": 1370,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1370,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/985.mp3",
     "info": "Seul le stationnement est interdit sur la chaussée lorsque celle-ci est divisée en bandes de circulation.",
@@ -6544,11 +6179,6 @@
         "questionId": 798,
         "entitled": "... tenir compte uniquement de la ligne qui se trouve de son côté",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 798,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/255.mp3",
     "info": "Le conducteur doit uniquement tenir compte de la ligne qui se trouve de son côté.",
@@ -6567,11 +6197,6 @@
         "questionId": 724,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 724,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/157.mp3",
     "info": "Signal C39 : A partir du signal jusqu'au prochain carrefour, interdiction aux conducteurs de véhicules ou trains de véhicules affectés au transport de choses, dont la masse maximale autorisée dépasse 3.500 Kg, de dépasser par la gauche un véhicule attelé ou un véhicule à plus de deux roues.",
@@ -6613,11 +6238,6 @@
         "questionId": 1017,
         "entitled": "je rétrograde de vitesse",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1017,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/512.mp3",
     "info": "À ne jamais faire : vous mettre au point mort dans une longue descente ! Le frein moteur se montre, dans une longue descente, le frein le plus efficace.",
@@ -6636,11 +6256,6 @@
         "questionId": 818,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 818,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/287.mp3",
     "info": "La piste cyclable ne fait pas partie de la chaussée.Vous ne pouvez pas y circuler, vous y arrêter ou y stationner votre voiture.",
@@ -6705,11 +6320,6 @@
         "questionId": 1505,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1505,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1178.mp3",
     "info": "Obligation de se trouver dans la bande ou file la plus à droite avant de quitter.",
@@ -6750,11 +6360,6 @@
         "id": 2,
         "questionId": 803,
         "entitled": "... ne peut pas rouler, car ce marquage indique un rétrécissement de la chaussée",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 803,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/263.mp3",
@@ -6866,11 +6471,6 @@
         "questionId": 1490,
         "entitled": "non, puisqu'il change de direction",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1490,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1143.mp3",
     "info": "Règle générale de priorité à droite.",
@@ -6888,11 +6488,6 @@
         "id": 2,
         "questionId": 914,
         "entitled": "je dois rouler à droite sauf lorsque la circulation est dense",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 914,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/392.mp3",
@@ -6935,11 +6530,6 @@
         "questionId": 1156,
         "entitled": "La voiture rouge",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1156,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/690.mp3",
     "info": "La voiture brune vire plus court que la voiture bleue.Le virage court a la priorité sur le virage long.",
@@ -6957,11 +6547,6 @@
         "id": 2,
         "questionId": 1549,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1549,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1248.mp3",
@@ -7004,11 +6589,6 @@
         "questionId": 1206,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1206,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/751.mp3",
     "info": "Les dépassements successifs sont autorisés sur cette chaussée.",
@@ -7027,11 +6607,6 @@
         "questionId": 1321,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1321,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/911.mp3",
     "info": "Non. Vous pouvez cependant vous arrêter.",
@@ -7142,11 +6717,6 @@
         "questionId": 638,
         "entitled": "Si le feu est vert, vous ne devez pas vous arrêter",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 638,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/44.mp3",
     "info": "Vous ne devez pas tenir compte d'un panneau stop qui se trouve juste devant ou sous des feux à condition que ces feux fonctionnent.Si les feux sont en panne, il faut respecter le panneau.",
@@ -7187,11 +6757,6 @@
         "id": 2,
         "questionId": 825,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 825,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/297.mp3",
@@ -7234,11 +6799,6 @@
         "questionId": 1683,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1683,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1402.mp3",
     "info": "Sur les routes pour automobiles et les autoroutes, l'agent qualifié pourvoit d'office au déplacement des véhicules accidentés et de leur chargement.",
@@ -7349,11 +6909,6 @@
         "questionId": 827,
         "entitled": "Non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 827,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/299.mp3",
     "info": "Le passager d'une voiture est un usager de la voie publique et est donc soumis au Code de la route pour, entre autre, devoir boucler sa ceinture, de s'assurer de l'absence de danger avant d'ouvrir sa portière…",
@@ -7372,11 +6927,6 @@
         "questionId": 1381,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1381,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1002.mp3",
     "info": "Cette signalisation règle le stationnement, pas l'arrêt !",
@@ -7464,11 +7014,6 @@
         "questionId": 1179,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1179,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/717.mp3",
     "info": "Signal D3 : Obligation de suivre une des directions indiquées par les flèches.",
@@ -7579,11 +7124,6 @@
         "questionId": 1113,
         "entitled": "FAUX",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1113,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/636.mp3",
     "info": "Cela est permis",
@@ -7671,11 +7211,6 @@
         "questionId": 817,
         "entitled": "Non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 817,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/285.mp3",
     "info": "C'est d’ailleurs le seul et unique cas où c’est autorisé.",
@@ -7717,11 +7252,6 @@
         "questionId": 648,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 648,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/57.mp3",
     "info": "Vous ne devez le respecter que si le feu se trouve à votre droite.",
@@ -7832,11 +7362,6 @@
         "questionId": 1592,
         "entitled": "Non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1592,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1294.mp3",
     "info": "Ils peuvent être demandés :- à l'auteur présumé d'un accident de roulage ou à toute personne qui a pu contribuer à le provoquer, même s'il en est la victime ,- à toute personne qui, dans un lieu public, conduit un véhicule ou une monture ou qui accompagne un conducteur en vue de l'apprentissage ,- à toute personne qui s'apprête à conduire un véhicule ou une monture dans un lieu public.",
@@ -7878,11 +7403,6 @@
         "questionId": 880,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 880,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/354.mp3",
     "info": "Le fait que les derniers mètres d’un chemin de terre soient recouverts d’un revêtement n’a pas d’importance.",
@@ -7923,11 +7443,6 @@
         "id": 2,
         "questionId": 1227,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1227,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/784.mp3",
@@ -7970,11 +7485,6 @@
         "questionId": 1502,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1502,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1158.mp3",
     "info": "Le signal B17 ne fait que rappeler le principe général de priorité à droite, le plus souvent aux carrefours particulièrement dangereux.",
@@ -7993,11 +7503,6 @@
         "questionId": 726,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 726,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/161.mp3",
     "info": "Signal C46 : fin de toutes les interdictions locales imposées aux véhicules en mouvement (limitation de vitesse, interdiction de virer ou de faire demi-tour..., mais pas des interdictions d'arrêt ou de stationnement).",
@@ -8200,11 +7705,6 @@
         "questionId": 878,
         "entitled": "Non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 878,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/352.mp3",
     "info": "Les voies privées qui peuvent être utilisées avec l’autorisation du propriétaire sont également considérées comme des voies publiques.",
@@ -8222,11 +7722,6 @@
         "id": 2,
         "questionId": 1426,
         "entitled": "Maximum 25 km/h",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1426,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1049.mp3",
@@ -8246,11 +7741,6 @@
         "questionId": 1578,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1578,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1279.mp3",
     "info": "0,5 g/litre dans le sang = 0,22 mg/litre dans l'air.0,8 g/litre dans le sang = 0,35 mg/litre dans l'air.",
@@ -8269,11 +7759,6 @@
         "questionId": 1624,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1624,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1339.mp3",
     "info": "La dispense n'est valable que pour des transports « occasionnels ».",
@@ -8315,11 +7800,6 @@
         "questionId": 1676,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1676,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1395.mp3",
     "info": "Ne donnez rien à boire à un blessé avant l'arrivée des services de secours, et ne surtout pas donner des médicaments.",
@@ -8337,11 +7817,6 @@
         "id": 2,
         "questionId": 1175,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1175,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/711.mp3",
@@ -8383,11 +7858,6 @@
         "id": 2,
         "questionId": 1442,
         "entitled": "... uniquement pendant les horaires scolaires",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1442,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1065.mp3",
@@ -8476,11 +7946,6 @@
         "questionId": 1238,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1238,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/802.mp3",
     "info": "Manoeuvres simultanées: application de la règle générale de priorité à droite.",
@@ -8498,11 +7963,6 @@
         "id": 2,
         "questionId": 1208,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1208,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/758.mp3",
@@ -8775,11 +8235,6 @@
         "questionId": 1009,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1009,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/502.mp3",
     "info": "Les pneus usés ne peuvent plus être retaillés",
@@ -8936,11 +8391,6 @@
         "questionId": 1518,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1518,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1203.mp3",
     "info": "À l'intérieur de votre véhicule, vous n'êtes pas à l'abri de la fumée et donc de l'asphyxie. En cas d'incendie, il faut donc le quitter et inviter vos passagers à en faire autant.",
@@ -9028,11 +8478,6 @@
         "questionId": 1185,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1185,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/723.mp3",
     "info": "Obligation de serrer le plus possible le bord droit de la chaussée.",
@@ -9050,11 +8495,6 @@
         "id": 2,
         "questionId": 1387,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1387,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1009.mp3",
@@ -9143,11 +8583,6 @@
         "questionId": 1157,
         "entitled": "Il enfreint la règle de la priorité de droite",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1157,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/691.mp3",
     "info": "Le conducteur de la voiture noire quitte une place de stationnement et doit céder le passage.",
@@ -9166,11 +8601,6 @@
         "questionId": 918,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 918,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/399.mp3",
     "info": "Les employés de La Poste, lorsqu’ils s’arrêtent fréquemment sur de courtes distances pour distribuer ou récupérer du courrier, sont exemptés du port de la ceinture",
@@ -9188,11 +8618,6 @@
         "id": 2,
         "questionId": 951,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 951,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/433.mp3",
@@ -9234,11 +8659,6 @@
         "id": 2,
         "questionId": 1496,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1496,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1149.mp3",
@@ -9373,11 +8793,6 @@
         "questionId": 1149,
         "entitled": "vous",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1149,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/678.mp3",
     "info": "Un conducteur conserve sa priorité de droite, même s'il s’est d'abord arrêté.",
@@ -9465,11 +8880,6 @@
         "questionId": 676,
         "entitled": "le signal F50",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 676,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/93.mp3",
     "info": "Le signal A25 signale le danger à environ 150 m, alors que le signal F50 localise le passage pour 2 roues.",
@@ -9511,11 +8921,6 @@
         "questionId": 1029,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1029,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/533.mp3",
     "info": "Sur les autoroutes et routes pour automobiles, le conducteur d'un véhicule en panne qui est rangé à un endroit où l'arrêt et le stationnement sont interdits doit porter une veste de sécurité rétro réfléchissante lorsqu'il sort de son véhicule.",
@@ -9556,11 +8961,6 @@
         "id": 2,
         "questionId": 1143,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1143,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/669.mp3",
@@ -9626,11 +9026,6 @@
         "questionId": 1047,
         "entitled": "la septième semaine de l'année 2006",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1047,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/560.mp3",
     "info": "Les deux premiers chiffres indiquent la semaine, les deux derniers, l'année de fabrication.",
@@ -9671,11 +9066,6 @@
         "id": 2,
         "questionId": 1123,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1123,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/646.mp3",
@@ -9764,11 +9154,6 @@
         "questionId": 1556,
         "entitled": "aux véhicules sans moteur, aux cyclos et véhicules agricoles",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1556,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1255.mp3",
     "info": "Signal F9 : Routes pour automobiles réservées aux véhicules à moteur ainsi qu'à leurs remorques, à l'exception des cyclomoteurs, des véhicules agricoles et des trains de véhicules forains ainsi que les tricycles sans habitacle dont la masse à vide n'excède pas 400 kg et les quadricycles sans habitacle.",
@@ -9833,11 +9218,6 @@
         "questionId": 1522,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1522,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1207.mp3",
     "info": "Un conducteur en apprentissage et donc détenteur d'un permis de conduire provisoire est autorisé à s'engager sur autoroute ou route pour automobiles en voiture ou à moto.",
@@ -9856,11 +9236,6 @@
         "questionId": 1254,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1254,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/824.mp3",
     "info": "Le dépassement est interdit sur un passage à niveau signalé par les panneaux routiers A45 et A47 et s'il n'y a ni barrières ni feux.",
@@ -9878,11 +9253,6 @@
         "id": 2,
         "questionId": 1421,
         "entitled": "Le laps de temps entre le moment où vous commencez à freiner et l'arrêt du véhicule",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1421,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1044.mp3",
@@ -9948,11 +9318,6 @@
         "questionId": 1248,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1248,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/818.mp3",
     "info": "Vous ne pouvez pas franchir une ligne blanche continue.",
@@ -9971,11 +9336,6 @@
         "questionId": 1544,
         "entitled": "je suis engagé en sens contraire",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1544,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1235.mp3",
     "info": "L'autoroute apparaît anormalement à votre droite et, pour y circuler à droite, vous devriez traverser une, voire deux bandes de circulation.",
@@ -10016,11 +9376,6 @@
         "id": 2,
         "questionId": 778,
         "entitled": "il les autorise à dépasser",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 778,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/228.mp3",
@@ -10063,11 +9418,6 @@
         "questionId": 1325,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1325,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/916.mp3",
     "info": "L'accès fait partie intégrante de l'autoroute.Il est interdit de faire de l'auto-stop sur l'autoroute.",
@@ -10085,11 +9435,6 @@
         "id": 2,
         "questionId": 784,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 784,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/237.mp3",
@@ -10109,11 +9454,6 @@
         "questionId": 964,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 964,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/450.mp3",
     "info": "Il a contourné son véhicule par l'arrière et se retrouve dos au trafic !",
@@ -10247,11 +9587,6 @@
         "questionId": 1286,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1286,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/858.mp3",
     "info": "Obligation de ralentir et, au besoin, de vous arrêter.",
@@ -10270,11 +9605,6 @@
         "questionId": 887,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 887,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/361.mp3",
     "info": "Ce n’est pas un rond-point.",
@@ -10384,11 +9714,6 @@
         "id": 2,
         "questionId": 1316,
         "entitled": "Le stationnement et l'arrêt de ce côté de la chaussée du 16 à la fin du mois",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1316,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/900.mp3",
@@ -10523,11 +9848,6 @@
         "questionId": 1204,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1204,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/749.mp3",
     "info": "Obligation de dépasser par la droite celui qui a manifesté son intention de virer à gauche ou de se garer à gauche ET s'est déporté de ce côté. Interdiction toutefois de « mordre » sur la piste cyclable.",
@@ -10592,11 +9912,6 @@
         "questionId": 1386,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1386,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1008.mp3",
     "info": "L'arrêt reste autorisé !",
@@ -10638,11 +9953,6 @@
         "questionId": 1693,
         "entitled": "une borne d'appel",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1693,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1412.mp3",
     "info": "La borne d'appel permettra de vous localiser avec précision, ce qui accélèrera l'arrivée des services de dépannage.",
@@ -10661,11 +9971,6 @@
         "questionId": 1260,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1260,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/831.mp3",
     "info": "À partir du panneau jusqu'au prochain carrefour, interdiction à tous les conducteurs de dépasser un véhicule à traction animale ou un véhicule à plus de deux roues.",
@@ -10776,11 +10081,6 @@
         "questionId": 693,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 693,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/118.mp3",
     "info": "Signal B19 : Passage étroit. Obligation de céder le passage aux conducteurs venant en sens opposé.",
@@ -10822,11 +10122,6 @@
         "questionId": 1516,
         "entitled": "couper le moteur et quitter le véhicule en laissant la clé sur le contact",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1516,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1201.mp3",
     "info": "Rangez votre véhicule à droite, coupez le moteur et laissez la clé sur le contact.",
@@ -10868,11 +10163,6 @@
         "questionId": 1191,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1191,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/731.mp3",
     "info": "Celui qui rencontre l'obstacle est obligé de céder le passage.",
@@ -10891,11 +10181,6 @@
         "questionId": 1487,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1487,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1130.mp3",
     "info": "Voie prioritaire.",
@@ -10914,11 +10199,6 @@
         "questionId": 955,
         "entitled": "Disposer le siège correctement",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 955,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/437.mp3",
     "info": "À ne pas oublier pendant l'examen pratique : d'abord le siège, ensuite les rétroviseurs.",
@@ -11121,11 +10401,6 @@
         "questionId": 875,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 875,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/349.mp3",
     "info": "Ce code ne s’applique pas aux véhicules sur rails qui empruntent la voie publique.",
@@ -11143,11 +10418,6 @@
         "id": 2,
         "questionId": 1124,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1124,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/647.mp3",
@@ -11213,11 +10483,6 @@
         "questionId": 1307,
         "entitled": "Du côté de la chaussée où les immeubles portent des numéros impairs",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1307,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/885.mp3",
     "info": "",
@@ -11259,11 +10524,6 @@
         "questionId": 1529,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1529,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1214.mp3",
     "info": "Dépassements successifs.",
@@ -11305,11 +10565,6 @@
         "questionId": 956,
         "entitled": "je ralentis et m'écarte légèrement vers la gauche",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 956,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/438.mp3",
     "info": "Ces piétons semblent absorbés par leurs discussions. Mieux vaut dès lors prendre les devants !",
@@ -11328,11 +10583,6 @@
         "questionId": 1161,
         "entitled": "Le véhicule venant en sens inverse",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1161,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/695.mp3",
     "info": "Le conducteur, dont le passage est entravé par un obstacle ou par la présence d'autres usagers de la route, doit ralentir et, si nécessaire, s'arrêter pour céder le passage aux usagers de la route venant en sens inverse.",
@@ -11351,11 +10601,6 @@
         "questionId": 641,
         "entitled": "Vous ne devez pas marquer l'arrêt si le feu est vert",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 641,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/49.mp3",
     "info": "Vous ne devez pas tenir compte d'un panneau stop qui se trouve juste devant ou sous des feux à condition que ces feux fonctionnent.Si le panneau stop se trouve au-delà des feux, il est bel et bien d'application.",
@@ -11374,11 +10619,6 @@
         "questionId": 1250,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1250,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/820.mp3",
     "info": "Cette ligne a la même signification qu'une ligne blanche continue.",
@@ -11535,11 +10775,6 @@
         "questionId": 1145,
         "entitled": "La voiture brune",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1145,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/671.mp3",
     "info": "La voiture bleue roule dans un sens qui lui est interdit.Dans ce cas, le conducteur de la voiture brune ne doit pas céder le passage pour respecter la priorité de droite.",
@@ -11581,11 +10816,6 @@
         "questionId": 1682,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1682,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1401.mp3",
     "info": "Sur les routes pour automobiles et les autoroutes, l'agent qualifié pourvoit d'office au déplacement des véhicules accidentés et de leur chargement.",
@@ -11673,11 +10903,6 @@
         "questionId": 707,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 707,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/136.mp3",
     "info": "Signal C9 : accès interdit aux conducteurs de tous cyclos (à 2 roues classes A et B, à 3 ou 4 roues...).",
@@ -11741,11 +10966,6 @@
         "id": 2,
         "questionId": 1050,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1050,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/565.mp3",
@@ -11834,11 +11054,6 @@
         "questionId": 1263,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1263,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/835.mp3",
     "info": "C’est interdit.",
@@ -11949,11 +11164,6 @@
         "questionId": 1439,
         "entitled": "... dans toute l'agglomération",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1439,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1062.mp3",
     "info": "Le signal est valable jusqu'au prochain carrefour.",
@@ -11995,11 +11205,6 @@
         "questionId": 1650,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1650,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1369.mp3",
     "info": "La position des mains dite \"à trois heures moins le quart\" est recommandée,",
@@ -12064,11 +11269,6 @@
         "questionId": 943,
         "entitled": "Vous devez porter une ceinture de sécurité",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 943,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/425.mp3",
     "info": "Tant le passager que le conducteur doivent porter la ceinture de sécurité",
@@ -12202,11 +11402,6 @@
         "questionId": 1618,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1618,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1330.mp3",
     "info": "Les conducteurs de taxis sont dispensés du port de la ceinture de sécurité lorsqu'ils transportent un client.",
@@ -12386,11 +11581,6 @@
         "questionId": 1237,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1237,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/801.mp3",
     "info": "Manoeuvres simultanées: application de la règle générale de priorité à droite.",
@@ -12431,11 +11621,6 @@
         "id": 2,
         "questionId": 1548,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1548,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1247.mp3",
@@ -12662,11 +11847,6 @@
         "questionId": 1246,
         "entitled": "... vous ne pouvez plus dépasser, mais devez vous rabattre immédiatement sur la bande de circulation de droite",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1246,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/816.mp3",
     "info": "Aucune règle du code de la route ne l'interdit.",
@@ -12708,11 +11888,6 @@
         "questionId": 842,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 842,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/316.mp3",
     "info": "Agent avec un bras levé = feu orange = interdiction de s'engager.",
@@ -12731,11 +11906,6 @@
         "questionId": 635,
         "entitled": "Non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 635,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/41.mp3",
     "info": "Flèche verte : vous pouvez vous engager dans le carrefour, mais devez céder le passage aux autres usagers de la route.",
@@ -12753,11 +11923,6 @@
         "id": 2,
         "questionId": 1406,
         "entitled": "Vous dégagez la chaussée le plus rapidement possible",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1406,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1029.mp3",
@@ -12823,11 +11988,6 @@
         "questionId": 1073,
         "entitled": "hors agglomération, sur une route nationale",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1073,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/590.mp3",
     "info": "En ville, les nombreux arrêts aux feux rouges, les ralentissements en abordant un carrefour, les embouteillages... se montrent très gourmands.",
@@ -12915,11 +12075,6 @@
         "questionId": 1253,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1253,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/823.mp3",
     "info": "Le dépassement au carrefour, à la fin d’un sentier ou un chemin de terre est interdit.",
@@ -12983,11 +12138,6 @@
         "id": 2,
         "questionId": 1162,
         "entitled": "L'autre voiture",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1162,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/697.mp3",
@@ -13076,11 +12226,6 @@
         "questionId": 977,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 977,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/464.mp3",
     "info": "Le stationnement ou l'arrêt sur une chaussée à moins de cinq mètres d'un passage pour piétons est interdit.",
@@ -13191,11 +12336,6 @@
         "questionId": 1096,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1096,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/617.mp3",
     "info": "Il ne doit être allumé qu’en cas de chute de neige, lorsque la visibilité est inférieure à 100 mètres.",
@@ -13260,11 +12400,6 @@
         "questionId": 1258,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1258,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/828.mp3",
     "info": "Vous ne pouvez pas franchir une ligne blanche continue.",
@@ -13283,11 +12418,6 @@
         "questionId": 672,
         "entitled": "le signal F49",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 672,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/88.mp3",
     "info": "Le signal A21 signale le danger à environ 150 m, alors que le signal F49 localise le passage pour piétons.",
@@ -13605,11 +12735,6 @@
         "questionId": 650,
         "entitled": "Il continue à rouler",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 650,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/59.mp3",
     "info": "Il continue à rouler car la distance d'arrêt est supérieure à 35 m",
@@ -13627,11 +12752,6 @@
         "id": 2,
         "questionId": 1105,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1105,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/627.mp3",
@@ -13651,11 +12771,6 @@
         "questionId": 833,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 833,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/305.mp3",
     "info": "Je ne puis pas faire l'objet d'un procès-verbal puisque je ne circule pas sur la voie publique. Cependant, en cas d'accident, le juge civil pourrait, même si je suis complètement en droit, mettre une partie des dommages à ma charge en estimant qu'en ne portant pas la ceinture (ou le casque) je suis responsable d'une aggravation de mes dommages.",
@@ -13697,11 +12812,6 @@
         "questionId": 1583,
         "entitled": "Le conducteur d'un vélo qui pousse son vélo sur la voie publique",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1583,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1284.mp3",
     "info": "Est un piéton.",
@@ -13881,11 +12991,6 @@
         "questionId": 892,
         "entitled": "Panneau 2",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 892,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/366.mp3",
     "info": "Panneau 1 : Descente dangereuse.Panneau 2 : Montée à forte inclinaison.",
@@ -13903,11 +13008,6 @@
         "id": 2,
         "questionId": 1159,
         "entitled": "La voiture verte",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1159,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/693.mp3",
@@ -14134,11 +13234,6 @@
         "questionId": 1605,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1605,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1313.mp3",
     "info": "Je ne peux utiliser mon portable en le tenant par la main que si mon véhicule est à l'arrêt ou en stationnement. En me rangeant sur ce marquage d'arrêt de bus où seul le stationnement est interdit (mais l'arrêt autorisé) pour répondre à un appel, mon véhicule n'est nullement à l'arrêt (il n'y a ni dé- ni embarquement de personnes ou de choses) mais bien en stationnement, ce qui est interdit !",
@@ -14157,11 +13252,6 @@
         "questionId": 1422,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1422,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1045.mp3",
     "info": "Rouler trop vite n'est pas autorisé, mais rouler trop lentement de sorte que vous gênez en permanence les autres n'est pas non plus permis.",
@@ -14203,11 +13293,6 @@
         "questionId": 1255,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1255,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/825.mp3",
     "info": "Vous pouvez dépasser à l'approche du sommet d'une côte, si la chaussée est divisée en bandes de circulation et qu'il y a au moins 2 bandes de circulation dans la direction dans laquelle vous roulez.",
@@ -14295,11 +13380,6 @@
         "questionId": 1163,
         "entitled": "Le cyclomoteur doit céder le passage à la voiture",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1163,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/698.mp3",
     "info": "Le cyclomoteur suit le sens de la circulation et a priorité.",
@@ -14317,11 +13397,6 @@
         "id": 2,
         "questionId": 1183,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1183,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/721.mp3",
@@ -14456,11 +13531,6 @@
         "questionId": 1566,
         "entitled": "... la Masse en Charge",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1566,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1266.mp3",
     "info": "A part ces 2 signaux, tous les autres signaux portent sur la MMA.",
@@ -14478,11 +13548,6 @@
         "id": 2,
         "questionId": 966,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 966,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/453.mp3",
@@ -14502,11 +13567,6 @@
         "questionId": 1264,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1264,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/836.mp3",
     "info": "C’est interdit car vous devez ralentir et, au besoin, vous arrêter pour céder le passage.",
@@ -14594,11 +13654,6 @@
         "questionId": 893,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 893,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/367.mp3",
     "info": "La bande d’arrêt d’urgence ne peut être utilisée qu’en cas de panne ou d’urgence.La consultation d’une carte géographique n’est pas un cas d’urgence.",
@@ -14755,11 +13810,6 @@
         "questionId": 832,
         "entitled": "non, mais il doit céder le passage aux véhicules prioritaires et respecter injonctions et feux lumineux",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 832,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/304.mp3",
     "info": "Un conducteur de tram n'est pas soumis à « notre » Code de la route. Les conducteurs de ces véhicules sont cependant obligés, par règlement interne, de respecter les feux lumineux, d'obéir aux injonctions des agents qualifiés et de céder le passage aux véhicules prioritaires.",
@@ -14823,11 +13873,6 @@
         "id": 2,
         "questionId": 923,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 923,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/404.mp3",
@@ -14893,11 +13938,6 @@
         "questionId": 931,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 931,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/412.mp3",
     "info": "Vous ne pouvez le faire qu’à partir de 17 ans.",
@@ -14938,11 +13978,6 @@
         "id": 2,
         "questionId": 840,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 840,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/314.mp3",
@@ -14985,11 +14020,6 @@
         "questionId": 1385,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1385,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1007.mp3",
     "info": "Le parcomètre ne limite que le stationnement.",
@@ -15054,11 +14084,6 @@
         "questionId": 1154,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1154,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/687.mp3",
     "info": "Non.",
@@ -15145,11 +14170,6 @@
         "id": 2,
         "questionId": 1302,
         "entitled": "... sur la chaussée et sur l'accotement",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1302,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/880.mp3",
@@ -15307,11 +14327,6 @@
         "questionId": 1524,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1524,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1209.mp3",
     "info": "Un conducteur en apprentissage et donc détenteur d'un permis de conduire provisoire est autorisé à s'engager sur autoroute ou route pour automobiles en voiture.",
@@ -15353,11 +14368,6 @@
         "questionId": 952,
         "entitled": "Non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 952,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/434.mp3",
     "info": "Pour pouvoir conduire un cyclomoteur de classe A, vous n'avez pas besoin de permis de conduire.",
@@ -15375,11 +14385,6 @@
         "id": 2,
         "questionId": 1600,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1600,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1308.mp3",
@@ -15422,11 +14427,6 @@
         "questionId": 1541,
         "entitled": "d'une des bornes téléphoniques disposées tous les 2 km",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1541,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1231.mp3",
     "info": "Prévenez le plus rapidement possible la police depuis une des bornes d'appel disposées tous les 2 km. Cela permet de vous situer immédiatement, donc plus rapidement que par GSM. Cette flèche vous indique la borne la plus proche, à maximum un kilomètre.",
@@ -15468,11 +14468,6 @@
         "questionId": 1503,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1503,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1163.mp3",
     "info": "En débouchant d'un chemin de terre ou d'un sentier, obligation de céder le passage à tout autre conducteur circulant sur la voie publique qu'il aborde. La présence d'un recouvrement à la jonction avec la voie publique ne modifie en rien cette règle.",
@@ -15491,11 +14486,6 @@
         "questionId": 1331,
         "entitled": "Du côté de la chaussée où les immeubles portent des numéros impairs",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1331,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/928.mp3",
     "info": "Du 1 au 15 on se réfère au 1. 1 étant impair vous stationnez du côté des chiffres impairs. Du 16 au 31 \"16\" étant pair, vous stationnez du côtés des chiffres pairs.",
@@ -15629,11 +14619,6 @@
         "questionId": 1333,
         "entitled": "Non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1333,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/933.mp3",
     "info": "",
@@ -15652,11 +14637,6 @@
         "questionId": 1215,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1215,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/767.mp3",
     "info": "Pas d'interdiction de dépasser par la gauche un véhicule large ou un véhicule à moteur à deux roues dans un carrefour où vous êtes prioritaire.",
@@ -15674,11 +14654,6 @@
         "id": 2,
         "questionId": 1153,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1153,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/686.mp3",
@@ -15744,11 +14719,6 @@
         "questionId": 1166,
         "entitled": "Non, car il n'y a pas de piste cyclable.",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1166,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/701.mp3",
     "info": "Le panneau rouge (B1) signale clairement que le conducteur de la motocyclette doit céder le passage aux conducteurs venant de la chaussée qu'il croise.Un piéton n'est pas un conducteur.",
@@ -15859,11 +14829,6 @@
         "questionId": 696,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 696,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/122.mp3",
     "info": "Signal B1 : Céder le passage + M10 : Panneau additionnel complétant le signal B1 pour indiquer que des cyclistes et des cyclomotoristes circulent dans les deux directions sur la voie publique transversale que vous allez aborder.",
@@ -15928,11 +14893,6 @@
         "questionId": 945,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 945,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/427.mp3",
     "info": "La position correcte des mains est '10 heures 10'.",
@@ -15974,11 +14934,6 @@
         "questionId": 1150,
         "entitled": "Le conducteur venant de droite",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1150,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/680.mp3",
     "info": "Vous débouchez d'un chemin de terre sur la chaussée.",
@@ -16019,11 +14974,6 @@
         "id": 2,
         "questionId": 1595,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1595,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1298.mp3",
@@ -16066,11 +15016,6 @@
         "questionId": 654,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 654,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/63.mp3",
     "info": "Vous pouvez virer sans tenir compte du feu rouge puisqu'il ne se trouve pas à votre droite. Il ne concerne que les conducteurs qui poursuivent tout droit.",
@@ -16158,11 +15103,6 @@
         "questionId": 1491,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1491,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1144.mp3",
     "info": "Règle générale de priorité à droite.",
@@ -16204,11 +15144,6 @@
         "questionId": 804,
         "entitled": "... pouvez encore tourner à droite, à condition de ne pas gêner d'autres conducteurs",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 804,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/264.mp3",
     "info": "La ligne séparant les bandes de circulation est une ligne blanche discontinue.",
@@ -16227,11 +15162,6 @@
         "questionId": 1633,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1633,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1351.mp3",
     "info": "Seuls les « conducteurs » sont soumis aux restrictions concernant la conduite sous influence de l'alcool. Mais, dans le cadre d'un accident, le juge doit pouvoir évaluer les responsabilités de chacune des parties, et l'éthylisme avancé d'un piéton doit également être examiné si certains témoins affirmaient qu'il titubait dangereusement…",
@@ -16249,11 +15179,6 @@
         "id": 2,
         "questionId": 736,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 736,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/178.mp3",
@@ -16273,11 +15198,6 @@
         "questionId": 1315,
         "entitled": "Je peux stationner ma voiture à cet endroit si une carte de stationnement spéciale est apposée sur la face interne du pare-brise et je ne dois pas payer l'horodateur",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1315,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/897.mp3",
     "info": "Si vous disposez d'une carte spéciale, vous n'êtes pas soumis aux règles des horodateurs.",
@@ -16342,11 +15262,6 @@
         "questionId": 1493,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1493,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1146.mp3",
     "info": "Principe général de priorité à droite, rappelé par le signal B17.",
@@ -16388,11 +15303,6 @@
         "questionId": 1568,
         "entitled": "... une infraction grave",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1568,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1268.mp3",
     "info": "C'est une infraction grave.",
@@ -16480,11 +15390,6 @@
         "questionId": 1440,
         "entitled": "Dès que vous franchissez le carrefour.",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1440,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1063.mp3",
     "info": "Le signal est valable jusqu'au prochain carrefour.Un sentier est aussi une voie publique et constitue donc un carrefour.",
@@ -16571,11 +15476,6 @@
         "id": 2,
         "questionId": 828,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 828,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/300.mp3",
@@ -16779,11 +15679,6 @@
         "questionId": 1579,
         "entitled": "... une interdiction de conduire pendant une durée de trois heures à compter de la constatation",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1579,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1280.mp3",
     "info": "À partir de 0,22 mg jusqu'à moins de 0,35 mg d'alcool par litre d'air expiré : interdiction de conduire pendant une durée de trois heures à compter de la constatation.",
@@ -16825,11 +15720,6 @@
         "questionId": 1330,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1330,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/925.mp3",
     "info": "",
@@ -17078,11 +15968,6 @@
         "questionId": 978,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 978,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/465.mp3",
     "info": "Le conducteur ne peut s'engager dans le carrefour que si celui-ci est libre.",
@@ -17354,11 +16239,6 @@
         "questionId": 1577,
         "entitled": "... il est procédé à une analyse de l'haleine",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1577,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1278.mp3",
     "info": "",
@@ -17400,11 +16280,6 @@
         "questionId": 1594,
         "entitled": "Vous devez de nouveau subir un test de l'haleine ou une analyse de l'haleine",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1594,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1297.mp3",
     "info": "Vous devrez à nouveau subir un test.",
@@ -17607,11 +16482,6 @@
         "questionId": 1233,
         "entitled": "je ne dois pas lui céder le passage",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1233,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/796.mp3",
     "info": "Changer de bande ou de file constitue une manoeuvre et oblige ce conducteur à vous céder le passage.",
@@ -17814,11 +16684,6 @@
         "questionId": 1617,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1617,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1329.mp3",
     "info": "Les conducteurs de taxis ne sont dispensés du port de la ceinture de sécurité que lorsqu'ils transportent un client.",
@@ -17860,11 +16725,6 @@
         "questionId": 645,
         "entitled": "Vous ne pouvez franchir les feux que si le carrefour est libre",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 645,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/53.mp3",
     "info": "Vous ne pouvez vous engager dans le carrefour que s'il est libre.Supposons que le feu devienne vert mais que le carrefour soit encore encombré de voitures, vous devez alors patienter devant le feu vert jusqu'à ce que le carrefour soit libre.(Cette règle est souvent enfreinte. Tenez-en cependant compte pendant l'examen pratique).",
@@ -17882,11 +16742,6 @@
         "id": 2,
         "questionId": 727,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 727,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/168.mp3",
@@ -17975,11 +16830,6 @@
         "questionId": 1219,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1219,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/775.mp3",
     "info": "La ligne blanche discontinue est la plus proche du conducteur.",
@@ -18067,11 +16917,6 @@
         "questionId": 667,
         "entitled": "le signal F87",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 667,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/83.mp3",
     "info": "Le signal A14 annonce le danger à environ 150 m, alors que le signal F87 localise le dispositif surélevé.",
@@ -18113,11 +16958,6 @@
         "questionId": 944,
         "entitled": "Il doit porter sa ceinture de sécurité",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 944,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/426.mp3",
     "info": "Dès que des clients se trouvent dans le taxi, il n'est pas obligé de porter de ceinture de sécurité. S'il va chercher des clients, bien.",
@@ -18251,11 +17091,6 @@
         "questionId": 1239,
         "entitled": "Que le croisement doit s'effectuer à droite",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1239,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/803.mp3",
     "info": "Une voiture doit également dépasser les trams par la droite.Sauf si le croisement à droite n'est pas possible parce que• le passage est trop étroit ,• un véhicule est stationné à droite.Dans ces cas, vous ne pouvez pas gêner les autres usagers.",
@@ -18273,11 +17108,6 @@
         "id": 2,
         "questionId": 1251,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1251,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/821.mp3",
@@ -18297,11 +17127,6 @@
         "questionId": 1257,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1257,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/827.mp3",
     "info": "Mais vous le pouvez si la chaussée est divisée en bandes de circulation.",
@@ -18388,11 +17213,6 @@
         "id": 2,
         "questionId": 1684,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1684,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1403.mp3",
@@ -18481,11 +17301,6 @@
         "questionId": 728,
         "entitled": "le permet",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 728,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/169.mp3",
     "info": "Signal D3 : Obligation de suivre une des directions indiquées par les flèches (tout droit ou à droite).",
@@ -18550,11 +17365,6 @@
         "questionId": 1221,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1221,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/778.mp3",
     "info": "Avec deux véhicules \"larges\" à votre droite, tripler est interdit sauf sur une chaussée divisée en bandes et comportant au moins trois bandes de circulation dans le sens suivi.",
@@ -18618,11 +17428,6 @@
         "id": 2,
         "questionId": 1366,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1366,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/981.mp3",
@@ -18734,11 +17539,6 @@
         "questionId": 1209,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1209,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/759.mp3",
     "info": "Interdiction de dépasser par la gauche un véhicule large ou un véhicule à moteur à deux roues sur un passage à niveau non muni de feux lumineux ou de barrières.",
@@ -18826,11 +17626,6 @@
         "questionId": 1280,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1280,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/852.mp3",
     "info": "Obligation de dépasser par la droite puisque l'espace est suffisant.",
@@ -18941,11 +17736,6 @@
         "questionId": 1560,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1560,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1259.mp3",
     "info": "Le signal C24 interdit l'accès aux conducteurs qui transportent des marchandises dangereuses.",
@@ -18964,11 +17754,6 @@
         "questionId": 1107,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1107,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/629.mp3",
     "info": "Le feu de direction doit uniquement être actionné pendant les déplacements latéraux",
@@ -19010,11 +17795,6 @@
         "questionId": 649,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 649,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/58.mp3",
     "info": "Une fois dans la bande de sélection, vous devez suivre la direction de la bande dans la quelle vous vous trouvez.",
@@ -19033,11 +17813,6 @@
         "questionId": 846,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 846,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/320.mp3",
     "info": "Agent de face = feu rouge = interdiction de s'engager.",
@@ -19101,11 +17876,6 @@
         "id": 2,
         "questionId": 1547,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1547,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1226.mp3",
@@ -19194,11 +17964,6 @@
         "questionId": 841,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 841,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/315.mp3",
     "info": "Bras levé = feu orange = interdiction de s'engager dans le carrefour.",
@@ -19240,11 +18005,6 @@
         "questionId": 1559,
         "entitled": "La Masse en Charge",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1559,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1258.mp3",
     "info": "La Masse en Charge : MC",
@@ -19286,11 +18046,6 @@
         "questionId": 982,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 982,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/469.mp3",
     "info": "Vous devez céder le passage à tous les conducteurs.",
@@ -19308,11 +18063,6 @@
         "id": 2,
         "questionId": 1403,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1403,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1026.mp3",
@@ -19332,11 +18082,6 @@
         "questionId": 822,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 822,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/294.mp3",
     "info": "Non, car on ne peut pas franchir une ligne blanche continue.",
@@ -19377,11 +18122,6 @@
         "id": 2,
         "questionId": 1007,
         "entitled": "Sur la Masse Maximale Autorisée",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1007,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/500.mp3",
@@ -19493,11 +18233,6 @@
         "questionId": 1545,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1545,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1238.mp3",
     "info": "Arrêt et stationnement interdits sur autoroute en dehors des endroits signalés par le signal E9a.",
@@ -19608,11 +18343,6 @@
         "questionId": 656,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 656,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/65.mp3",
     "info": "Les conducteurs venant en sens inverse sont arrêtés par un feu rouge (fla lèche verte d'évacuation du carrefour m'autorise à passer).",
@@ -19677,11 +18407,6 @@
         "questionId": 1172,
         "entitled": "Oui, car il y a un passage pour piétons",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1172,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/707.mp3",
     "info": "Un tram a besoin d’un certain temps pour s’arrêter.C'est la raison pour laquelle les piétons peuvent uniquement s’engager sur le passage pour piétons si aucun tram n'approche ou ne s'apprête à démarrer.",
@@ -19700,11 +18425,6 @@
         "questionId": 1581,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1581,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1282.mp3",
     "info": "C'est une des nombreuses fables. Cela ne vous aidera en rien.Au contraire, le café peut encore renforcer les effets de l'alcool.",
@@ -19745,11 +18465,6 @@
         "id": 2,
         "questionId": 1155,
         "entitled": "Vous",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1155,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/689.mp3",
@@ -19838,11 +18553,6 @@
         "questionId": 1346,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1346,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/960.mp3",
     "info": "Seul le stationnement est interdit devant les accès carrossables des propriétés.",
@@ -19861,11 +18571,6 @@
         "questionId": 1584,
         "entitled": "... une analyse de l'haleine",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1584,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1285.mp3",
     "info": "Un test de l'haleine donne une indication de la présence d'alcool dans le sang.Une analyse de l'haleine mesure exactement combien.",
@@ -19884,11 +18589,6 @@
         "questionId": 1470,
         "entitled": "je rétrograde de vitesse",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1470,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1095.mp3",
     "info": "À ne jamais faire : vous mettre au point mort dans une longue descente ! Le frein moteur se montre, dans une longue descente, le frein le plus efficace.",
@@ -19907,11 +18607,6 @@
         "questionId": 927,
         "entitled": "... est considéré comme un conducteur",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 927,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/408.mp3",
     "info": "Ne sont pas considérés comme un piéton :- une personne qui pousse une voiture en panne ou une motocyclette,- une personne qui guide une roulotte halée par un cheval ou une charrette,- une personne qui guide une monture non attelée ou une ou plusieurs vaches.",
@@ -20137,11 +18832,6 @@
         "questionId": 1504,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1504,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1177.mp3",
     "info": "Priorité aux conducteurs circulant sur l'anneau du rond-point.",
@@ -20252,11 +18942,6 @@
         "questionId": 1575,
         "entitled": "... une analyse de l'haleine",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1575,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1276.mp3",
     "info": "Lors d'un TEST DE L'HALEINE, un appareil portable est utilisé afin de détecter les traces d'alcool dans l'air expiré.",
@@ -20297,11 +18982,6 @@
         "id": 2,
         "questionId": 826,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 826,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/298.mp3",
@@ -20344,11 +19024,6 @@
         "questionId": 1277,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1277,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/849.mp3",
     "info": "A l'approche d'un véhicule prioritaire, tout usager doit immédiatement dégager, céder le passage et, au besoin, s'arrêter.",
@@ -20528,11 +19203,6 @@
         "questionId": 1225,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1225,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/782.mp3",
     "info": "Tripler est autorisé puisque le véhicule étroit à moteur (cyclo) dépasse un véhicule étroit (cyclo).",
@@ -20574,11 +19244,6 @@
         "questionId": 1235,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1235,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/798.mp3",
     "info": "Ce conducteur change de bande et doit donc vous céder le passage.",
@@ -20735,11 +19400,6 @@
         "questionId": 1348,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1348,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/962.mp3",
     "info": "Arrêt et stationnement interdits sur les pistes cyclables et sur les passages pour 2 roues.",
@@ -20942,11 +19602,6 @@
         "questionId": 1224,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1224,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/781.mp3",
     "info": "Tripler est interdit : un véhicule étroit à moteur (moto) dépasse un véhicule large (voiture).",
@@ -21011,11 +19666,6 @@
         "questionId": 699,
         "entitled": "non, sauf si un panneau prévoit une exception à leur égard",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 699,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/125.mp3",
     "info": "Certaines rues trop étroites resteront interdites aux cyclistes.",
@@ -21103,11 +19753,6 @@
         "questionId": 1276,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1276,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/848.mp3",
     "info": "Ce véhicule n'est pas \"prioritaire\", mais se présente à votre droite.",
@@ -21125,11 +19770,6 @@
         "id": 2,
         "questionId": 1108,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1108,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/630.mp3",
@@ -21171,11 +19811,6 @@
         "id": 2,
         "questionId": 916,
         "entitled": "je suis obligé de me rabattre sur la bande de droite",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 916,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/394.mp3",
@@ -21241,11 +19876,6 @@
         "questionId": 1597,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1597,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1300.mp3",
     "info": "Une deuxième analyse est immédiatement effectuée, sur demande.Une troisième analyse est effectuée, si la différence entre les deux résultats est supérieure aux prescriptions en matière de précision définies par arrêté royal.",
@@ -21263,11 +19893,6 @@
         "id": 2,
         "questionId": 1378,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1378,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/998.mp3",
@@ -21310,11 +19935,6 @@
         "questionId": 657,
         "entitled": "il m'autorise à m'engager dans le carrefour mais ne modifie pas les règles de priorité en vigueur",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 657,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/66.mp3",
     "info": "Le feu jaune-orange clignotant = autorisation de franchir, en redoublant de prudence et en respectant les règles de priorité.",
@@ -21402,11 +20022,6 @@
         "questionId": 1391,
         "entitled": "... doit quitter le carrefour",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1391,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1013.mp3",
     "info": "Les conducteurs ou les piétons qui se trouvent déjà dans le carrefour doivent le quitter le plus rapidement possible.",
@@ -21448,11 +20063,6 @@
         "questionId": 1397,
         "entitled": "... peut donner des ordres que les usagers de la route doivent respecter et arrêter le trafic s'il utilise le signal C3",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1397,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1019.mp3",
     "info": "",
@@ -21563,11 +20173,6 @@
         "questionId": 1313,
         "entitled": "... une ligne blanche continue est peinte sur le bord fictif de la chaussée",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1313,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/894.mp3",
     "info": "Une ligne blanche discontinue sur la chaussée signifie une interdiction pour tout conducteur de stationner sur la chaussée.",
@@ -21631,11 +20236,6 @@
         "id": 2,
         "questionId": 1492,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1492,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1145.mp3",
@@ -21839,11 +20439,6 @@
         "questionId": 1262,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1262,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/834.mp3",
     "info": "Dépasser par la droite est interdit. Il s'agit d’ailleurs d'une infraction grave.",
@@ -21862,11 +20457,6 @@
         "questionId": 1167,
         "entitled": "150 mètres plus loin, vous devez vous arrêter et céder le passage",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1167,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/702.mp3",
     "info": "Le panneau additionnel indique qu'un signal stop (B5) se trouve 150 mètres plus loin.",
@@ -21885,11 +20475,6 @@
         "questionId": 917,
         "entitled": "21 ans",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 917,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/398.mp3",
     "info": "Les conducteurs qui transportent des personnes en taxi, en bus, en car ou en trolleybus doivent avoir 21 ans.",
@@ -22138,11 +20723,6 @@
         "questionId": 961,
         "entitled": "je ralentis et me tiens prêt à freiner",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 961,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/445.mp3",
     "info": "Les piétons peuvent subitement changer d'avis ou encore devoir s'immobiliser en raison du trafic en sens inverse.",
@@ -22184,11 +20764,6 @@
         "questionId": 1252,
         "entitled": "Passage étroit. Vous avez la priorité sur les véhicules venant en sens inverse",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1252,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/822.mp3",
     "info": "Passage étroit. Vous avez la priorité.",
@@ -22598,11 +21173,6 @@
         "questionId": 1148,
         "entitled": "L'autre voiture",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1148,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/677.mp3",
     "info": "Si les feux clignotants bleus fonctionnent et si l'avertisseur sonore spécial est utilisé, la voiture de police est un véhicule prioritaire et vous devez lui céder le passage.Le panneau rouge (B15c) signale que le conducteur de la voiture foncée roule dans un carrefour prioritaire.",
@@ -22643,11 +21213,6 @@
         "id": 2,
         "questionId": 1230,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1230,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/788.mp3",
@@ -22690,11 +21255,6 @@
         "questionId": 1494,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1494,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1147.mp3",
     "info": "Application de la règle générale de priorité à droite.",
@@ -22758,11 +21318,6 @@
         "id": 2,
         "questionId": 838,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 838,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/310.mp3",
@@ -22828,11 +21383,6 @@
         "questionId": 1118,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1118,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/641.mp3",
     "info": "Contrairement au feu de brouillard arrière, qui est obligatoire.",
@@ -22850,11 +21400,6 @@
         "id": 2,
         "questionId": 781,
         "entitled": "je dois systématiquement m'arrêter",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 781,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/233.mp3",
@@ -22897,11 +21442,6 @@
         "questionId": 782,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 782,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/234.mp3",
     "info": "Les flèches de sélection vous obligent à vous diriger dans la direction indiquée. Vous ne pouvez donc emprunter la bande de gauche que dans le but de virer à gauche !",
@@ -22943,11 +21483,6 @@
         "questionId": 969,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 969,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/456.mp3",
     "info": "Réglementairement rien ne vous interdit de remonter ce camion par la droite. Il pourrait cependant se rendre compte au dernier moment que c'est bien cette sortie qu'il doit emprunter. Dans ce cas, il risque de vous coincer contre la barrière de sécurité, sans possibilité d'échappatoire.",
@@ -23196,11 +21731,6 @@
         "questionId": 936,
         "entitled": "... vous devez avoir minimum 16 ans",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 936,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/418.mp3",
     "info": "Pour pouvoir conduire ce cyclomoteur de classe B sans passager, vous devez avoir 16 ans minimum",
@@ -23426,11 +21956,6 @@
         "questionId": 1214,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1214,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/766.mp3",
     "info": "Interdiction de dépasser par la gauche un véhicule large ou un véhicule à moteur à deux roues dans un carrefour annoncé par les signaux B1 ou B5.",
@@ -23633,11 +22158,6 @@
         "questionId": 1392,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1392,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1014.mp3",
     "info": "Non. Il ne peut donc pas non plus donner d'ordre ou faire arrêter le trafic.",
@@ -23656,11 +22176,6 @@
         "questionId": 1580,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1580,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1281.mp3",
     "info": "",
@@ -23794,11 +22309,6 @@
         "questionId": 1103,
         "entitled": "Le feu clignotant jaune-orange des tracteurs agricoles doit être allumé",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1103,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/625.mp3",
     "info": "#NOM?",
@@ -23839,11 +22349,6 @@
         "id": 2,
         "questionId": 970,
         "entitled": "je freine le plus efficacement possible",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 970,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/457.mp3",
@@ -23886,11 +22391,6 @@
         "questionId": 1481,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1481,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1124.mp3",
     "info": "Priorité au prochain carrefour.",
@@ -24024,11 +22524,6 @@
         "questionId": 1226,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1226,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/783.mp3",
     "info": "Tripler est autorisé puisque le véhicule étroit à moteur (moto) dépasse un véhicule étroit (cyclomoteur à deux roues).",
@@ -24069,11 +22564,6 @@
         "id": 2,
         "questionId": 1188,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1188,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/727.mp3",
@@ -24254,11 +22744,6 @@
         "questionId": 1290,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1290,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/862.mp3",
     "info": "Pas nécessaire de marquer l'arrêt, mais la présence du refuge ne vous dispense pas de l'obligation de modérer votre vitesse pour longer ce tram arrêté.",
@@ -24276,11 +22761,6 @@
         "id": 2,
         "questionId": 973,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 973,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/460.mp3",
@@ -24323,11 +22803,6 @@
         "questionId": 1210,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1210,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/760.mp3",
     "info": "L'interdiction de dépasser par la gauche sur un passage à niveau ne s'exerce qu'à l'égard des véhicules \"larges\" ou des véhicules à moteur à deux roues.",
@@ -24368,11 +22843,6 @@
         "id": 2,
         "questionId": 946,
         "entitled": "... un conducteur",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 946,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/428.mp3",
@@ -24415,11 +22885,6 @@
         "questionId": 1645,
         "entitled": "non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1645,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1363.mp3",
     "info": "Attention aux faux remèdes !",
@@ -24438,11 +22903,6 @@
         "questionId": 950,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 950,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/432.mp3",
     "info": "Ne doivent pas porter de ceinture :. un conducteur qui effectue une marche arrière ,. un chauffeur de taxi qui transporte des clients ,. les policiers lorsque leur mission l'exige.",
@@ -24553,11 +23013,6 @@
         "questionId": 1573,
         "entitled": "Non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1573,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1274.mp3",
     "info": "- Sans panneau réfléchissant, le chargement peut dépasser de 1 mètre maximum.- Avec un panneau réfléchissant de 0,5 mètre : le chargement peut dépasser de 3 mètres maximum s’il ne peut être divisé.- De nuit, le panneau doit être équipé d'un feu rouge et d",
@@ -24576,11 +23031,6 @@
         "questionId": 1319,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1319,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/909.mp3",
     "info": "Il est interdit de rouler, de s'arrêter ou de stationner sur une piste cyclable.",
@@ -24599,11 +23049,6 @@
         "questionId": 1415,
         "entitled": "Vous commettez une infraction",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1415,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1038.mp3",
     "info": "Il s'agit d'une infraction.",
@@ -24621,11 +23066,6 @@
         "id": 2,
         "questionId": 1074,
         "entitled": "non, uniquement par temps de brouillard",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1074,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/591.mp3",
@@ -24783,11 +23223,6 @@
         "questionId": 1240,
         "entitled": "Non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1240,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/806.mp3",
     "info": "Si le dépassement par la droite est impossible (par exemple, parce qu’il y a un obstacle sur la chaussée ou un véhicule à l'arrêt ou en stationnement ou encore parce que le passage est trop étroit), vous pouvez dépasser le tram par la gauche.Toutefois, vous ne pouvez pas gêner les usagers venant en sens inverse.",
@@ -24851,11 +23286,6 @@
         "id": 2,
         "questionId": 947,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 947,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/429.mp3",
@@ -24943,11 +23373,6 @@
         "id": 2,
         "questionId": 1497,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1497,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1150.mp3",
@@ -25059,11 +23484,6 @@
         "questionId": 979,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 979,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/466.mp3",
     "info": "Le tram a la priorité.",
@@ -25082,11 +23502,6 @@
         "questionId": 1409,
         "entitled": "Non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1409,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1032.mp3",
     "info": "Oui, ils ont cette compétence.",
@@ -25104,11 +23519,6 @@
         "id": 2,
         "questionId": 1174,
         "entitled": "La motocyclette",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1174,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/710.mp3",
@@ -25243,11 +23653,6 @@
         "questionId": 1234,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1234,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/797.mp3",
     "info": "Changer de bande ou de file constitue une manoeuvre et vous oblige à céder le passage.",
@@ -25266,11 +23671,6 @@
         "questionId": 1339,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1339,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/943.mp3",
     "info": "Vous devez laisser 20 mètres de distance.",
@@ -25312,11 +23712,6 @@
         "questionId": 1499,
         "entitled": "non",
         "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1499,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1153.mp3",
     "info": "Principe général de priorité à droite.",
@@ -25357,11 +23752,6 @@
         "id": 2,
         "questionId": 1495,
         "entitled": "non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1495,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1148.mp3",
@@ -25449,11 +23839,6 @@
         "id": 2,
         "questionId": 1405,
         "entitled": "Non",
-        "isRight": false
-    }, {
-        "id": 3,
-        "questionId": 1405,
-        "entitled": "",
         "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/1028.mp3",
@@ -25565,11 +23950,6 @@
         "questionId": 1151,
         "entitled": "Non",
         "isRight": true
-    }, {
-        "id": 3,
-        "questionId": 1151,
-        "entitled": "",
-        "isRight": false
     }],
     "audio": "https://blublobstorage.blob.core.windows.net/sounds/b/fr/683.mp3",
     "info": "Ils doivent lui céder le passage uniquement en agglomération.",

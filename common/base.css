@@ -125,7 +125,6 @@ input[type=checkbox]:checked + label:before {
 
 input[type=checkbox] + label {
   display: inline-block;
-  background: #ddd;
   padding: 0.4em;
   border-radius: 0.5em;
   user-select: none;

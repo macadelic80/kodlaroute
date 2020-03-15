@@ -55,16 +55,16 @@ let server = express().use((req, res) => {
 }).listen(process.env.PORT || 8080);
 
 let get_date = ()=>{
-	let date = new Date();
-	let hours = date.getHours();
-	hours = hours < 10 ? "0" : "" + hours;
-	let minutes = date.getMinutes();
-	minutes = minutes < 10 ? "0" : "" + minutes;
-	let seconds = date.getSeconds();
-	seconds = seconds < 10 ? "0" : "" + seconds;
-	let ms = date.getMilliseconds();
-	seconds = seconds < 10 ? "00" : seconds < 100 ? "0" : "" + seconds;
-	return `${hours}:${minutes}:${seconds}:${ms}`;
+    let c = new Date;
+    let r = c.getHours();
+    	r = (10 > r ? "0" : "") + r;
+    let o = c.getMinutes();
+    	o = (10 > o ? "0" : "") + o;
+    let s = c.getSeconds();
+    	s = (10 > s ? "0" : "") + s;
+    let m = c.getMilliseconds();
+	m = (100 > m && m >= 10 ? "0" : m < 10 ? "00" : "") + m;
+	return "" + r + ":" + o + ":" + s + ":" + m;
 }
 
 class Room {
@@ -191,6 +191,8 @@ socketio(server).on("connection", socket => {
 		let room = rooms[name] || -1;
 		if (!~room) return
 		room.broadcast_message({displayName: user.displayName, text: message});
+	}).on("get_datas", (name)=>{
+		socket.emit("data", rooms[name].players.map(x=>x.displayName), name);
 	})
 });
 
@@ -235,10 +237,10 @@ let build_html = (room) => {
 		<div class="sidebarToggle" title="Toggle sidebar"><button>📝</button></div>
 	  </div>
 	  <div class="pages">
-	    <div class="loading page" hidden>
-	      <div>Loading...</div>
+	    <div class="loading page">
+	      <div>Please sign-in with google before...</div>
 	    </div>
-	    <div class="main page">
+	    <div class="main page" hidden>
 	      <div class="game">
 		  ${create_question(Questions[0])}
 		  </div>

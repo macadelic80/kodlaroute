@@ -1,4 +1,4 @@
-
+let Userj
 
 let get_account = (callback)=>{
 	gapi.signin2.render('my-signin2', {
@@ -24,9 +24,7 @@ let create = (e) => {
 	let selected = ~~document.querySelector("#roomPrivacyPrivate").checked;
 	let room_name = document.querySelector("#room_name").value.toLowerCase();
 	let privacy = ["Public", "Private"][selected]
-	get_account(user=>{
-		socket.emit("create_room", privacy, room_name, user);
-	})
+	socket.emit("create_room", privacy, room_name, User);
 }
 
 
@@ -61,6 +59,9 @@ let start = () => {
 		socket.emit("get_rooms");
 	})
 	socket.on("connect", ()=>{
+		get_account(user=>{
+			User = user;
+		})
 		socket.emit("get_rooms");
 	}).on("send_rooms", (rooms, infos)=>{
 		update_room_list(rooms, infos);

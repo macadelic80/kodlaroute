@@ -1,4 +1,4 @@
-
+let users = [];
 let get_account = (callback)=>{
 	gapi.signin2.render('my-signin2', {
 	  'scope': 'profile email',
@@ -28,11 +28,18 @@ let set_answers_event = () => {
 
 let sendMessage = (displayName, text, date) =>{
 	let div = document.createElement("div");
+	let chat = document.querySelector(".log")
 	div.innerHTML = `
-	<span class="time">${date}</span><span class="author">${displayName}</span>
+	<span class="time">${date}</span><span class="author">${displayName}:</span>
 	<span class="text">${text}</span>
 	`
-	document.querySelector(".log").appendChild(div);
+	chat.appendChild(div);
+	if (!(chat.scrollTop >= chat.scrollHeight - chat.clientHeight - 15))
+		chat.scrollBy(1, 5000)
+}
+
+let update_users_list = () => {
+	document.querySelector("body > div.top > div.info > span.chatterCount").innerText = users.length;
 }
 
 let sendInfo = (displayName, text, date) =>{
@@ -67,8 +74,13 @@ let start = ()=> {
 	})
 	socket.on("connect", ()=>{
 		console.log("Connecté au serveur");
+		socket.emit("get_datas", window.location.pathname.substr(1));
 		get_account(user=>{
-			let name = window.location.pathname.substr(1)
+			users.push(user.displayName);
+			update_users_list()
+			document.querySelector(".loading.page").hidden = true;
+			document.querySelector(".main.page").hidden = false;
+			let name = window.location.pathname.substr(1);
 			socket.emit("joined", user, name);
 			document.querySelector(".leaveRoom").addEventListener("click", e=>{
 				if(confirm("Are you sure you want quit ?")){
@@ -77,6 +89,9 @@ let start = ()=> {
 				}
 			})
 		})
+	}).on("data", (data,name)=>{
+		users = users.concat(users, data);
+		update_users_list()
 	}).on("fail", (e)=>{
 		alert(e);
 		window.location.href = window.location.origin;
@@ -84,7 +99,10 @@ let start = ()=> {
 		let {displayName, text, date} = data;
 		sendMessage(displayName,text,date);
 	}).on("chatInfo", (date, type, displayName)=>{
-		console.log("info", type);
+		//console.log("info", type);
+		if (type == "join") users.push(displayName);
+		else if (type == "leave") users.splice(users.indexOf(displayName), 1);
+		update_users_list()
 		sendInfo(displayName,type,date);
 	})
 }

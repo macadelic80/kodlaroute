@@ -19,7 +19,7 @@ body {
 .top {
   display: flex;
   align-items: center;
-  background: #7141e0;
+  background: #ff6800;
   color: #eee;
 }
 
@@ -61,7 +61,9 @@ body {
 }
 
 .main.page {
-  position: relative;
+	position: relative;
+	background-color: #222;
+	color: white;
 }
 
 .main.page .game {
@@ -150,7 +152,7 @@ body {
 }
 
 .sidebar > .chat .log > div .author:after {
-  content: ":";
+  content: "";
 }
 
 .sidebar > .chat .log > div .text:before {

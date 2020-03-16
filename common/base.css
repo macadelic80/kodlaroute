@@ -180,7 +180,8 @@ table {
 th, td {
   vertical-align: top;
   padding: 1em;
-  border: 1px solid #ccc;
+  border: 1px solid #202020;
+  color: white;
 }
 
 @media (min-width: 1000px) {

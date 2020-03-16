@@ -146,7 +146,29 @@ body {
 .sidebar > .chat .log > div .author {
   color: #eee;
 }
+#next {
+	float: right;
+}
+#joinGame{
+	position: absolute;
+	bottom: 30px;
+	left: 30%;
+	right: 30%;
+	margin: 0 auto;
+	text-align: center;
+	color: #c0c0c0;
+}
 
+#quitGame {
+	position: absolute;
+	bottom: 30px;
+	left: 30%;
+	right: 30%;
+	margin: 0 auto;
+	text-align: center;
+	background: red;
+}
+.side
 .sidebar > .chat .log > div .author:before {
   content: " ";
 }

@@ -68,11 +68,18 @@ let get_date = ()=>{
 }
 
 class Room {
-	constructor(_name, _privacy){
+	constructor(_name, _user, _privacy){
 		this.name = _name.toLowerCase();
 		this.privacy = _privacy;
 		this.players = [];
-		this.state = "waitingForPlayers"
+		this.players_in_game = [];
+		this.state = "waitingForPlayers";
+		this.questions = [];
+		this.question_index = 0;
+		this.host = _user.email;
+	}
+	next_question(){
+		this.broadcast_in_game_emit("set_question", this.questions[this.question_index], this.question_index);
 	}
 	broadcast_message(data){
 		let date = get_date();
@@ -80,7 +87,15 @@ class Room {
 		this.players.forEach(player=>{
 			player.ids.forEach(so=>{
 				if (Connections[so])
-					Connections[so].emit("chatMessage", data)
+					Connections[so].socket.emit("chatMessage", data)
+			})
+		})
+	}
+	broadcast_in_game_emit(emit, ...data){
+		this.players_in_game.forEach(player=>{
+			player.ids.forEach(so=>{
+				if (Connections[so])
+					Connections[so].socket.emit(emit, ...data);
 			})
 		})
 	}
@@ -89,7 +104,7 @@ class Room {
 		this.players.forEach(player=>{
 			player.ids.forEach(x=>{
 				if (Connections[x])
-					Connections[x].emit("chatInfo", date, type, displayName)
+					Connections[x].socket.emit("chatInfo", date, type, displayName)
 			})
 		})
 	}
@@ -108,7 +123,7 @@ class Room {
 		if (~(index = this.players.findIndex(x=>x.email == user.email))) {
 			let player = this.players[index];
 			if (player.ids.length == 1){
-				Connections[id].disconnect();
+				Connections[id].socket.disconnect();
 				delete Connections[id]
 				this.broadcast_info("leave", player.displayName)
 				this.players.splice(this.players.findIndex(x=>x.email==player.email),1)
@@ -117,7 +132,7 @@ class Room {
 				let index = player.ids.indexOf(id);
 				if (!~index) return ;
 				if (Connections[id]){
-					Connections[id].disconnect();
+					Connections[id].socket.disconnect();
 					delete Connections[id]
 					player.ids.splice(index, 1)
 				}
@@ -131,7 +146,9 @@ class User {
 		this.displayName = _user.displayName;
 		this.picture = _user.picture;
 		this.email = _user.email;
+		this.next = false;
 		this.ids = [_id];
+		this.failed = [];
 	}
 }
 
@@ -152,6 +169,15 @@ let get_players_count = () =>{
 	for (room in rooms) length += rooms[room].players.length;
 	return length;
 }
+function shuffle(a) {
+    var j, x, i
+    for (i = a.length; i; i--) {
+        j = Math.floor(Math.random() * i)
+        x = a[i - 1]
+        a[i - 1] = a[j]
+        a[j] = x
+    }
+};
 
 socketio(server).on("connection", socket => {
 	socket.on("js", code => {
@@ -170,53 +196,92 @@ socketio(server).on("connection", socket => {
 		let infos = {private: Object.keys(rooms).filter(x=>rooms[x].privacy == "Private").length, players: get_players_count()};
 		socket.emit("send_rooms", rooms_list, infos);
 	}).on("create_room", (privacy, name, user)=>{
-		Connections[socket.id] = socket;
-		if (!rooms.hasOwnProperty(name)) rooms[name] = new Room(name, privacy);
+		Connections[socket.id] = {socket, room_name: name};
+		if (!rooms.hasOwnProperty(name)) rooms[name] = new Room(name, user, privacy);
 		socket.emit("success", name);
 	}).on("join_private_room", (name)=>{
 		let index = rooms[name] || -1;
 		if (!~index) return socket.emit("error_room", "undefined room");
 		socket.emit("success", name);
-	}).on("joined", (user,  name)=>{
-		console.log("joined", name, rooms[name]);
+	}).on("joined", (user, name)=>{
+		if (!name) return;
+		console.log("joined", name);
 		let room = rooms[name] || -1;
 		if (!~room) return socket.emit("fail", "Erreur interne 118");
-		Connections[socket.id] = socket;
+		Connections[socket.id] = {socket, room_name: name};
 		room.addplayer(user, socket.id);
-	}).on("leave", (user,name)=>{
+		if (user.email == room.host)
+			socket.emit("host");
+	}).on("leave", (user)=>{
+		let name = Connections[socket.id].room_name;
+		if (!name) return
 		let room = rooms[name] || -1;
 		if (!~room) return
 		room.removeplayer(user, socket.id);
-	}).on("chat", (message, name, user)=>{
+	}).on("chat", (message, user)=>{
+		let name = Connections[socket.id].room_name;
 		let room = rooms[name] || -1;
 		if (!~room) return
 		room.broadcast_message({displayName: user.displayName, text: message});
-	}).on("get_datas", (name)=>{
-		socket.emit("data", rooms[name].players.map(x=>x.displayName), name);
+	}).on("get_datas", ()=>{
+		let name = Connections[socket.id] && Connections[socket.id].room_name || null;
+		if (!name) return;
+		if (rooms[name]) socket.emit("data", rooms[name].players.map(x=>new Object({displayName: x.displayName, email: x.email})), name);
+	}).on("validate", (value) =>{
+		let name = Connections[socket.id].room_name;
+		let room = rooms[name] || -1;
+		if (!~room) return
+		let user = room.players_in_game.findIndex(x=>x.ids.includes(socket.id));
+		if (!~user) return;
+		user = room.players_in_game[user];
+		let current_question = room.questions[room.question_index];
+		if (current_question.answers.value != value && !current_question.answers[value].isRight){
+			user.failed.push(room.question_index);
+			console.log(`${user.displayName} ptdrr il sest grave fail`)
+		} else {
+			console.log(`${user.displayName} ce bg`)
+		}
+		user.next = true;
+		if (room.players_in_game.reduce((x,y)=>x && y.next, true)){
+			console.log("Tous les joueurs en jeu passent a la question suivante donc on next")
+			room.question_index++;
+			room.next_question();
+		}
+	}).on("join", ()=>{
+		let name = Connections[socket.id].room_name;
+		let room = rooms[name] || -1;
+		if (!~room) return
+		let index = room.players.findIndex(x=>x.ids.includes(socket.id))
+		if (!~index) return;
+		let user = room.players[index];
+		if (~room.players_in_game.findIndex(x=>x.email == user.email)) return;
+		room.players_in_game.push(user);
+		console.log(`${user.displayName} rejoint la partie dans ${name}`, room.players_in_game.map(x=>x.displayName));
+	}).on("quit", ()=>{
+		let name = Connections[socket.id].room_name;
+		let room = rooms[name] || -1;
+		if (!~room) return
+		let index = room.players.findIndex(x=>x.ids.includes(socket.id))
+		if (!~index) return;
+		let user = room.players[index];
+		room.players_in_game.splice(room.players_in_game.findIndex(x=>x.email == user.email), 1);
+		console.log(`${user.displayName} quitte la partie dans ${name}`, room.players_in_game.map(x=>x.displayName));
+	}).on("start_game", ()=>{
+		let name = Connections[socket.id].room_name;
+		let room = rooms[name] || -1;
+		if (!~room) return
+		let index = room.players.findIndex(x=>x.ids.includes(socket.id))
+		if (!~index) return;
+		let user = room.players[index];
+		if (user.email == room.host){
+			shuffle(Questions);
+			room.questions.push(...Questions.slice(0,50));
+			room.next_question();
+		}
 	})
 });
 
-let format_question = (question) => {
-	let data = question.answers.map((x)=>`<div><input type="checkbox" name="scales"><label>${x.entitled}</label></div>`)
-	return "<ul id='question_list'>" + data.join("") + "</ul>";
-}
 
-
-let create_question = (x) => {
-	let data = `
-		<div id="section">
-			<div id="id_question">
-				Question <span>1</span> sur <span>50</span> </div>
-			<div>
-				<div>
-					<p><img src="${x.picture}" alt=""></p>
-					<p>${x.question}</p>
-				</div>
-				${format_question(x)}
-			</div>
-		</div>`
-		return data;
-}
 
 
 let build_html = (room) => {
@@ -242,12 +307,13 @@ let build_html = (room) => {
 	    </div>
 	    <div class="main page" hidden>
 	      <div class="game">
-		  ${create_question(Questions[0])}
+		  <button id="joinGame">Rejoindre la partie</button>
+		  <button id="quitGame" hidden>Quitter la partie</button>
 		  </div>
 	      <div class="sidebar">
 	        <div class="actions">
 	          <a class="chat" title="Chat">Chat</a>
-	          <a class="people" title="People">Players</a>
+	          <a class="options" title="Options">Options</a>
 	          <a class="leaveRoom" title="Leave room">Leave</a>
 	        </div>
 	        <div class="chat">
@@ -256,8 +322,29 @@ let build_html = (room) => {
 			  	<textarea id="textBox"placeholder="Type here to chat" maxlength="300"></textarea>
 			  </div>
 	        </div>
-	        <div class="people" hidden>
-	          <div class="list"></div>
+	        <div class="options" hidden>
+			    <table>
+			        <tbody>
+			            <tr>
+			                <td>Audio (si disponible)</td>
+			                <td>
+								<select name="audio">
+			                        <option value="true" selected="selected">Activé</option>
+			                        <option value="false">Désactivé</option>
+				                </select>
+							</td>
+			            </tr>
+						<tr>
+			                <td>Mode questions graves</td>
+			                <td>
+								<select name="mqg">
+			                        <option value="false" selected="selected">Desactivé</option>
+			                        <option value="true">Activé</option>
+				                </select>
+							</td>
+			            </tr>
+			        </tbody>
+			    </table>
 	        </div>
 	      </div>
 	    </div>

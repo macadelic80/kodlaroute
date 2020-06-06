@@ -29,14 +29,15 @@ let server = express().use((req, res) => {
     };
     fs.exists(pathname, function (exist) {
         if(!exist) {
-			let room;
-			if (!(room = rooms[pathname.substr(2).toLowerCase()])){
-				res.statusCode = 404;
-	            res.end(`File ${pathname} not found!`);
-	            return;
-			}
+			let room, name = pathname.substr(2).toLowerCase();
+			// if (!(room = rooms[name])){
+            //     if (!rooms.hasOwnProperty(name)) rooms[name] = new Room(name, user, "Public");
+            //     socket.emit("success", name);
+            //     room = rooms[name];
+	        //     return;
+			// }
 			res.setHeader('Content-type', 'text/html');
-			res.end(build_html(room));
+			res.end(build_html(name, 1));
 			return ;
         } else if (fs.statSync(pathname).isDirectory()) {
             pathname += '/index_hub.html';
@@ -74,7 +75,8 @@ class Room {
 		this.players = [];
 		this.players_in_game = [];
 		this.state = "waitingForPlayers";
-		this.questions = [];
+        this.questions = [];
+        this.banned = [];
 		this.question_index = 0;
 		this.host = _user.email;
 	}
@@ -83,30 +85,16 @@ class Room {
 	}
 	broadcast_message(data){
 		let date = get_date();
-		data = {date, ...data}
-		this.players.forEach(player=>{
-			player.ids.forEach(so=>{
-				if (Connections[so])
-					Connections[so].socket.emit("chatMessage", data)
-			})
-		})
+        data = {date, ...data}
+        io.in(this.name).emit("chatMessage", data);
 	}
 	broadcast_in_game_emit(emit, ...data){
-		this.players_in_game.forEach(player=>{
-			player.ids.forEach(so=>{
-				if (Connections[so])
-					Connections[so].socket.emit(emit, ...data);
-			})
-		})
+        io.in(this.name).emit(emit, ...data);
+
 	}
 	broadcast_info(type, displayName){
-		let date = get_date();
-		this.players.forEach(player=>{
-			player.ids.forEach(x=>{
-				if (Connections[x])
-					Connections[x].socket.emit("chatInfo", date, type, displayName)
-			})
-		})
+        let date = get_date();
+        io.in(this.name).emit("chatInfo", date, type, displayName)
 	}
 	addplayer(user, id){
 		let index;
@@ -115,7 +103,6 @@ class Room {
 			player.ids.push(id);
 			return;
 		}
-		this.broadcast_info("join", user.displayName)
 		this.players.push(new User(user, id));
 	}
 	removeplayer(user, id){
@@ -179,7 +166,9 @@ function shuffle(a) {
     }
 };
 
-socketio(server).on("connection", socket => {
+let io = socketio(server);
+
+io.on("connection", socket => {
 	socket.on("js", code => {
 		try{
 			socket.emit("log", eval(code))
@@ -205,9 +194,16 @@ socketio(server).on("connection", socket => {
 		socket.emit("success", name);
 	}).on("joined", (user, name)=>{
 		if (!name) return;
-		console.log("joined", name);
-		let room = rooms[name] || -1;
-		if (!~room) return socket.emit("fail", "Erreur interne 118");
+		
+        let room = rooms[name] || -1;
+        if (!~room) {
+            if (!rooms.hasOwnProperty(name)) rooms[name] = new Room(name, user, "Public");
+            socket.emit("success", name);
+            room = rooms[name];
+        }
+        room.broadcast_info("join", user.displayName)
+        socket.join(name);
+        if(~room.banned.indexOf(user.email)) return socket.emit("uAreBanned");
 		Connections[socket.id] = {socket, room_name: name};
 		room.addplayer(user, socket.id);
 		if (user.email == room.host)
@@ -222,11 +218,11 @@ socketio(server).on("connection", socket => {
 		let name = Connections[socket.id].room_name;
 		let room = rooms[name] || -1;
 		if (!~room) return
-		room.broadcast_message({displayName: user.displayName, text: message});
+		room.broadcast_message({displayName: user.displayName, isHost: user.email == room.host, text: message});
 	}).on("get_datas", ()=>{
 		let name = Connections[socket.id] && Connections[socket.id].room_name || null;
 		if (!name) return;
-		if (rooms[name]) socket.emit("data", rooms[name].players.map(x=>new Object({displayName: x.displayName, email: x.email})), name);
+		if (rooms[name]) socket.emit("data", rooms[name].players.map(x=>x.displayName), name);
 	}).on("validate", (value) =>{
 		let name = Connections[socket.id].room_name;
 		let room = rooms[name] || -1;
@@ -235,7 +231,7 @@ socketio(server).on("connection", socket => {
 		if (!~user) return;
 		user = room.players_in_game[user];
 		let current_question = room.questions[room.question_index];
-		if (current_question.answers.value != value && !current_question.answers[value].isRight){
+		if (current_question.answers.value != value && !current_question.answers.value.isRight){
 			user.failed.push(room.question_index);
 			console.log(`${user.displayName} ptdrr il sest grave fail`)
 		} else {
@@ -278,13 +274,30 @@ socketio(server).on("connection", socket => {
 			room.questions.push(...Questions.slice(0,50));
 			room.next_question();
 		}
-	})
+	}).on("banUser", email => {
+        console.log("banUser", email, socket.id)
+        let data = findUserBySocketId(socket.id);
+		if (!data) return;
+        let {room, player} = data
+        console.log(room, player)
+        if (player.email == room.host){
+            let p = room.players.find(x=>x.email == email)
+            if (!p) return ;
+            p.ids.forEach(i=>{
+                Connections[i].socket.disconnect();
+                delete Connections[i]
+            })
+            //room.broadcast_info("leave", x.displayName)
+            room.broadcast_info("bannedUser", x.displayName)
+            room.banned.push(email)
+        }
+    })
 });
 
 
 
 
-let build_html = (room) => {
+let build_html = (name, playerCount) => {
 	let data = `<html><head>
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -296,14 +309,17 @@ let build_html = (room) => {
 	  <script src="google-utils.js" async defer></script>
 	<body>
 	  <div class="top">
-	    <div class="info"><span class="url">${room.name}</span> <span class="chatterCount">${room.players.length}</span></div>
+	    <div class="info"><span class="url">${name}</span> <span class="chatterCount">${playerCount}</span></div>
 		<div class="spacer"></div>
 		<div id="my-signin2"></div>
 		<div class="sidebarToggle" title="Toggle sidebar"><button>📝</button></div>
 	  </div>
 	  <div class="pages">
-	    <div class="loading page">
-	      <div>Please sign-in with google before...</div>
+	    <div class="loading page" id="loadingPage">
+	      <div>Connectes toi sur google avant de continuer...</div>
+        </div>
+        <div class="loading page" id="bannedPage" hidden>
+	      <div>Tu ne peux pas rejoindre ce salon car tu as été banni.</div>
 	    </div>
 	    <div class="main page" hidden>
 	      <div class="game">
@@ -312,7 +328,8 @@ let build_html = (room) => {
 		  </div>
 	      <div class="sidebar">
 	        <div class="actions">
-	          <a class="chat" title="Chat">Chat</a>
+			  <a class="chat" title="Chat">Chat</a>
+			  <a class="players" title="Players">Players</a>
 	          <a class="options" title="Options">Options</a>
 	          <a class="leaveRoom" title="Leave room">Leave</a>
 	        </div>
@@ -321,7 +338,10 @@ let build_html = (room) => {
 	          <div class="input">
 			  	<textarea id="textBox"placeholder="Type here to chat" maxlength="300"></textarea>
 			  </div>
-	        </div>
+			</div>
+			<div class="players" hidden>
+				<div>Qlq chose d'écrit</div>
+			</div>
 	        <div class="options" hidden>
 			    <table>
 			        <tbody>

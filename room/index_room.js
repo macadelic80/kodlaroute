@@ -54,11 +54,13 @@ let create_question = (x, index) => {
 		return data;
 }
 
-let sendMessage = (displayName, text, date) =>{
+let sendMessage = (displayName, isHost, text, date) =>{
 	let div = document.createElement("div");
 	let chat = document.querySelector(".log")
 	div.innerHTML = `
-	<span class="time">${date}</span><span class="author">${displayName}:</span>
+    <span class="time">${date}</span>
+    ${isHost ? "<span>⭐</span>": ""}
+    <span class="author">${displayName}:</span>
 	<span class="text">${text}</span>
 	`
 	chat.appendChild(div);
@@ -67,13 +69,17 @@ let sendMessage = (displayName, text, date) =>{
 }
 
 let update_users_list = () => {
+	let players = document.querySelector("body > div.pages > div.main.page > div.sidebar > div.players");
+
 	document.querySelector("body > div.top > div.info > span.chatterCount").innerText = users.length;
+	players.innerHTML = users.join("</br>")
 }
 
 let sendInfo = (displayName, text, date) =>{
 	let messages = {
 		"join": " a rejoint la partie.",
-		"leave": " a quitté la partie.",
+        "leave": " a quitté la partie.",
+        "ban": " a été banni.",
 		"QCM": ""
 	};
 	let div = document.createElement("div");
@@ -102,16 +108,26 @@ let start = ()=> {
 	})
 
 	let chat = document.querySelector("body > div.pages > div.main.page > div.sidebar > div.chat");
+	let players = document.querySelector("body > div.pages > div.main.page > div.sidebar > div.players");
 	let options = document.querySelector("body > div.pages > div.main.page > div.sidebar > div.options");
 	let chat_header = document.querySelector("body > div.pages > div.main.page > div.sidebar > div.actions > a.chat")
 	let options_header = document.querySelector("body > div.pages > div.main.page > div.sidebar > div.actions > a.options")
+	let players_header = document.querySelector("body > div.pages > div.main.page > div.sidebar > div.actions > a.players")
+
 	chat_header.addEventListener("click", event=>{
-		chat.hidden = !chat.hidden
-		options.hidden = !options.hidden
+		chat.hidden = false;
+		options.hidden = true
+		players.hidden = true
 	})
 	options_header.addEventListener("click", event=>{
-		chat.hidden = !chat.hidden
-		options.hidden = !options.hidden
+		chat.hidden = true
+		options.hidden = false
+		players.hidden = true
+	})
+	players_header.addEventListener("click", event=>{
+		chat.hidden = true
+		options.hidden = true
+		players.hidden = false
 	})
 	let audio = document.querySelector("body > div.pages > div.main.page > div.sidebar > div.options > table > tbody > tr:nth-child(1) > td:nth-child(2) > select");
 	audio.addEventListener("change", event=>{
@@ -135,26 +151,27 @@ let start = ()=> {
 		quitGame.hidden = true;
 		joinGame.hidden = false;
 		socket.emit("quit");
-	})
+    })
+    document.querySelector(".leaveRoom").addEventListener("click", e=>{
+        if(confirm("Are you sure you want quit ?")){
+            socket.emit("leave", user)
+            window.location.href = window.location.origin
+        }
+    })
 	socket.on("connect", ()=>{
 		console.log("Connecté au serveur");
-		socket.emit("get_datas");
 		get_account(user=>{
-			if (!~users.indexOf(user.displayName))
-				users.push(user.displayName);
-			update_users_list()
 			document.querySelector(".loading.page").hidden = true;
 			document.querySelector(".main.page").hidden = false;
 			let name = window.location.pathname.substr(1);
 			socket.emit("joined", user, name);
-			document.querySelector(".leaveRoom").addEventListener("click", e=>{
-				if(confirm("Are you sure you want quit ?")){
-					socket.emit("leave", user)
-					window.location.href = window.location.origin
-				}
-			})
+			socket.emit("get_datas");
 		})
-	}).on("host", ()=>{
+	}).on("uAreBanned", ()=>{
+        document.querySelector("#bannedPage").hidden = false;
+        document.querySelector("#loadingPage").hidden = true;
+		document.querySelector(".main.page").hidden = true;
+    }).on("host", ()=>{
 		let button = document.createElement("button")
 		button.innerText = "Lancer la partie"
 		button.addEventListener("click", (event) => {
@@ -162,14 +179,15 @@ let start = ()=> {
 		})
 		document.querySelector(".game").appendChild(button)
 	}).on("data", (data,name)=>{
-		users = users.concat(users, data);
+		console.log("data", data, name)
+		users = users.concat(data);
 		update_users_list()
 	}).on("fail", (e)=>{
 		alert(e);
 		window.location.href = window.location.origin;
 	}).on("chatMessage", data=>{
-		let {displayName, text, date} = data;
-		sendMessage(displayName,text,date);
+		let {displayName, isHost, text, date} = data;
+		sendMessage(displayName,isHost, text,date);
 	}).on("chatInfo", (date, type, displayName)=>{
 		//console.log("info", type);
 		if (type == "join") users.push(displayName);
@@ -187,7 +205,10 @@ let start = ()=> {
 			if (a == 1 && ~selected) socket.emit("validate", selected);
 			else sendInfo("Il faut choisir une seule reponse", "QCM", get_date());
 		})
-	})
+	}).on("bannedUser", displayName => {
+        users.splice(users.indexOf(displayName), 1);
+        sendInfo(displayName,type,date);
+    })
 }
 
 let get_date = ()=>{

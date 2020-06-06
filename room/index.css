@@ -141,6 +141,7 @@ body {
 .sidebar > .chat .log > div .time {
   font-size: 0.7em;
   color: #888;
+  padding-right: 0.5em;
 }
 
 .sidebar > .chat .log > div .author {
